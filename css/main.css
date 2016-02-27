@@ -216,6 +216,9 @@ blockquote {
 /**
  * Posts
  */
+ .post {
+  color:white;
+ }
 .post-header {
   margin-bottom: 30px; }
 
