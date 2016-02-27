@@ -1,3 +1,16 @@
+/* Large desktop */
+@media (min-width: 1200px) { ... }
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { ... }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { ... }
+
+
 /**
  * Reset some basic elements
  */
@@ -85,26 +98,6 @@ blockquote {
   blockquote > :last-child {
     margin-bottom: 0; }
 
-/**
- * Code formatting
- */
-pre,
-code {
-  font-size: 15px;
-  border: 1px solid #e8e8e8;
-  border-radius: 3px;
-  background-color: #eef; }
-
-code {
-  padding: 1px 5px; }
-
-pre {
-  padding: 8px 12px;
-  overflow-x: scroll; }
-  pre > code {
-    border: 0;
-    padding-right: 0;
-    padding-left: 0; }
 
 /**
  * Wrapper
@@ -142,72 +135,15 @@ pre {
   .icon > svg path {
     fill: #828282; }
 
-/**
- * Site header
- */
-.site-header {
-  border-top: 5px solid #424242;
-  border-bottom: 1px solid #e8e8e8;
-  min-height: 56px;
-  position: relative; }
-
-.site-title {
-  font-size: 26px;
-  line-height: 56px;
-  letter-spacing: -1px;
-  margin-bottom: 0;
-  float: left; }
-  .site-title, .site-title:visited {
-    color: #424242; }
-
-.site-nav {
-  float: right;
-  line-height: 56px; }
-  .site-nav .menu-icon {
-    display: none; }
-  .site-nav .page-link {
-    color: #111;
-    line-height: 1.5; }
-    .site-nav .page-link:not(:first-child) {
-      margin-left: 20px; }
-  @media screen and (max-width: 600px) {
-    .site-nav {
-      position: absolute;
-      top: 9px;
-      right: 30px;
-      background-color: #fdfdfd;
-      border: 1px solid #e8e8e8;
-      border-radius: 5px;
-      text-align: right; }
-      .site-nav .menu-icon {
-        display: block;
-        float: right;
-        width: 36px;
-        height: 26px;
-        line-height: 0;
-        padding-top: 10px;
-        text-align: center; }
-        .site-nav .menu-icon > svg {
-          width: 18px;
-          height: 15px; }
-          .site-nav .menu-icon > svg path {
-            fill: #424242; }
-      .site-nav .trigger {
-        clear: both;
-        display: none; }
-      .site-nav:hover .trigger {
-        display: block;
-        padding-bottom: 5px; }
-      .site-nav .page-link {
-        display: block;
-        padding: 5px 10px; } }
 
 /**
  * Site footer
  */
 .site-footer {
+  clear: both;
   border-top: 1px solid #e8e8e8;
-  padding: 30px 0; }
+  padding: 30px 0; 
+  }
 
 .footer-heading {
   font-size: 18px;
@@ -452,19 +388,25 @@ pre {
 /**
  * Homepage
  **/
+ /* top banner */
 .hero-unit {
     background-image:url('/assets/img/lunar_pano.jpg');
     background-size:cover;
     background-color: black;
     height:300px;
     margin:0;
+    border:0;
   }
+
 .hero-unit h1 {
     text-align:center;
-    color: #FFFFFF;
-    font-size: 1.7em;
+    font-family: "orator-std",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #f7eedf;
+    font-size: 1.3em;
     letter-spacing: -1px;
-    line-height: 1;
+    line-height: 1.5;
     margin:auto;
     padding-top: 50px;
     text-transform: uppercase;
@@ -474,23 +416,51 @@ pre {
   padding-bottom:10px;
   border-bottom:1px solid white;
 }
-
-
 .fill{width:100%;height:350px;background-position:center;background-size:cover;
 }
 
-    /* Large desktop */
-    @media (min-width: 1200px) { ... }
-     
-    /* Portrait tablet to landscape and desktop */
-    @media (min-width: 768px) and (max-width: 979px) { ... }
-     
-    /* Landscape phone to portrait tablet */
-    @media (max-width: 767px) { ... }
-     
-    /* Landscape phones and down */
-    @media (max-width: 480px) { ... }
-  
+/* project list */
+.homepage-grid {
+  padding: 50px 25px;
+  margin:0 auto;
+}
+.project {
+   position: relative; 
+   margin-bottom: 20px;
+}
+.project .circle {
+  position: absolute; 
+  top: 60px; 
+  left: 0;
+  right: 0; 
+  margin:auto; 
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  font-size:2.1em;
+  text-align:center;
+  background:black;
+  font-family: "orator-std",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #f7eedf;
+  text-transform: uppercase;
+}
+.project .circle h2 {
+  margin: 20px 0 0 0;
+  color: #f7eedf;
+}
+.project .circle h2 a {
+  color: #f7eedf;
+}
+.project-underline {
+  margin:0 auto;
+  width:50%;
+}
+.project .circle .cat {
+  margin:35px 0 15px 0;
+  font-size: 0.7em;
+}
 
 
 
