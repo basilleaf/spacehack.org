@@ -13,6 +13,6 @@ Rovers are limited to costing no more than 15,000 EUR in parts, equipment and pa
 <p><strong>To stay up-to-date on this project:</strong><br/>
 • follow <a href="http://twitter.com/rover_challenge">twitter.com/rover_challenge</a><br/>
 • connect with <a href="http://facebook.com/europeanroverchallenge">facebook.com/europeanroverchallenge</a></p>
-<a class="post-edit-link" href="http://spacehack.org/wp-admin/post.php?post=2257&#038;action=edit">Admin: Edit</a> </div>
-</div>
+ </div>
+
  

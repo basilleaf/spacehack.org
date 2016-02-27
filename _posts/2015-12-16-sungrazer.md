@@ -12,6 +12,6 @@ To learn more and participate, visit: http://sungrazer.nrl.navy.mil
 <p><strong>To learn more and participate, visit: <a href="http://sungrazer.nrl.navy.mil/">http://sungrazer.nrl.navy.mil</a></strong></p>
 <p><strong>To stay up-to-date on this project:</strong><br/>
 • follow <a href="https://twitter.com/SungrazerComets">twitter.com/SungrazerComets</a></p>
-<a class="post-edit-link" href="http://spacehack.org/wp-admin/post.php?post=2351&#038;action=edit">Admin: Edit</a> </div>
+ 
 </div>
  
