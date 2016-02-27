@@ -1,1 +1,4 @@
-work in progress.
+cd spacehack.org
+
+jekyll serve --watch
+
