@@ -5,11 +5,42 @@
 
   <body>
 
-    {% include header.html %}
+    <div class="banner">
+        
+        <img class = "img_fit" src="/assets/img/{{ page.banner }}" alt="{{ page.title }}">
 
-    <div class="page-content">
-      <div class="wrapper">
+    </div>      
+
+    <div class="page-content row-fluid">
+
+      <div class="content col-sm-4">
+
+        <div class = "probe_title">
+          {{ page.title }}
+        </div> 
+
+        <ul class = "probe_links">
+
+          {% if page.website %}
+            <li><a href = "{{ page.website }}">{{ page.website }}</a></li>
+          {% endif %}
+
+          {% if page.twitter %}
+            <li><a href = "{{ page.twitter }}">{{ page.twitter }}</a></li>
+          {% endif %}
+
+          {% if page.facebook %}
+            <li><a href = "{{ page.facebook }}">{{ page.facebook }}</a></li>
+          {% endif %}
+
+        </ul>
+
+      </div>
+
+      <div class="content col-sm-8">
+
         {{ content }}
+
       </div>
     </div>
 
