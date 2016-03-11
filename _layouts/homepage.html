@@ -5,43 +5,39 @@
 
   <body>
 
-      <div class="hero-unit">
+    <div class="hero-unit">
+      <h1><span class="underline">{{ site.title }}</span></h1>
+    </div>
 
-          <h1><span class="underline">{{ site.title }}</span></h1>
-        
-      </div>
+    <div class="homepage-grid row-fluid">
 
+      {% for post in site.posts %}
+        <div class = "project col-sm-4">
 
-      <div class="homepage-grid row-fluid">
+          <img src="/assets/img/{{ post.thumbnail }}" alt="{{ post.title }}" class="img-responsive">
 
-          {% for post in site.posts %}
-            <div class = "project col-sm-4">
+          <div class="circle">
 
-              <img src="/assets/img/{{ post.thumbnail }}" alt="{{ post.title }}" class="img-responsive">
-
-              <div class="circle">
-
-                <div class = "cat">
-                  {{ post.category }}
-                </div>
-
-                <div class = "project-underline">
-                  <hr>
-                </div>
-
-                <h2>
-                  <a class="post-link" href="{{ post.url}}">{{ post.title }}</a>
-                </h2>
-              </div>
-
+            <div class = "cat">
+              {{ post.category }}
             </div>
 
-          {% endfor %}
-      </div>
+            <div class = "project-underline">
+              <hr>
+            </div>
 
+            <h2>
+              <a class="post-link" href="{{ post.url}}">{{ post.title }}</a>
+            </h2>
+
+          </div>
+
+        </div>
+
+      {% endfor %}
+    </div>
 
     {% include footer.html %}
-
 
   </body>
 
