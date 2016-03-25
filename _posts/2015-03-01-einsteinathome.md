@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  Galaxy Zoo Radio
-category: Black Holes
+title:  Einstein@Home
+category: Gravitational Waves
 thumbnail: galaxyzooradio_square.jpg
 banner: galaxyzooradio_rectangle.jpg
 website: http://radio.galaxyzoo.org/
 twitter: http://twitter.com/radiogalaxyzoo
 facebook: 
-tags: black holes, radio, zooniverse,
+tags: black holes, radio, zooniverse, infrared,
 
 caption: >
     (image by ESO/WFI (Optical); MPIfR/ESO/APEX/A.Weiss et al. (Submillimetre); NASA/CXC/CfA/R.Kraft et al. (X-ray))
