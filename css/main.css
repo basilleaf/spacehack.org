@@ -423,7 +423,7 @@ blockquote {
   font-style: normal;
   color: #f7eedf;
   text-transform: uppercase;
-  letter-spacing: -1px;
+  letter-spacing: 1px;
   line-height: 1.5;
   font-weight: 200;
   margin:0; padding:0;
@@ -483,9 +483,9 @@ blockquote {
   margin:35px 0 15px 0;
   font-size: 0.7em;
 }
-.navbar-brand {
+.navbar-brand { /* navbar on probe pages */
   padding-top: 10px;
-  font-size: 1.3em;
+  font-size: 1.2em;
   color:white;
   position: absolute;
   width: 100%;
