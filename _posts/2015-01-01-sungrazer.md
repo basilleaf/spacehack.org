@@ -2,7 +2,7 @@
 layout: post
 title:  Sungrazer
 category: Comets
-image: sungrazer_square.jpg
+thumbnail: sungrazer_square.jpg
 banner: sungrazer_rectangle.jpg
 website: http://sungrazer.nrl.navy.mil
 twitter: https://twitter.com/SungrazerComets

@@ -2,7 +2,7 @@
 layout: post
 title:  European Rover
 category: Mars
-image: europeanrover_square.jpg
+thumbnail: europeanrover_square.jpg
 banner: europeanrover_rectangle.jpg
 website: http://www.roverchallenge.eu/
 twitter: http://twitter.com/rover_challenge
