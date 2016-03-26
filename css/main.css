@@ -55,6 +55,7 @@ ul, ol, dl, figure,
   margin-bottom: 10px;
 }
 
+
 /**
  * Images
  */
@@ -63,12 +64,14 @@ img {
   vertical-align: middle;
 }
 
+
 /**
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
+
 
 /**
  * Links
@@ -136,7 +139,8 @@ a:hover {
  * Homepage
  * 
  **/
- /* top banner */
+
+ /* homepage top banner */
 .hero-unit {
   background-image: url('/assets/img/lunar_pano.jpg');
   background-size: cover;
@@ -173,7 +177,6 @@ a:hover {
   background-position: center;
   background-size: cover;
 }
-
 
 /* homepage project list */
 .homepage-grid {
@@ -228,8 +231,6 @@ a:hover {
   background-color: black;
   height: 4em;
 }
-
-
 
 
 /**
@@ -344,6 +345,7 @@ a:hover {
   };
 }
 
+
 /**
  * Blockquotes
  */
@@ -381,6 +383,7 @@ blockquote > :last-child {
   };
 }
 
+
 /**
  * Clearfix
  */
@@ -389,6 +392,7 @@ blockquote > :last-child {
   display: table;
   clear: both;
 }
+
 
 /**
  * Icons
