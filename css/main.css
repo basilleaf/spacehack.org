@@ -94,6 +94,26 @@ a:hover {
 /**
  * Posts aka Probes
  */
+/* site banner */
+.site_name {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transform: scaleY(1.1);
+  font-family: "orator-std",sans-serif;
+  font-style: normal;
+  color: #f7eedf;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 300;
+  border-bottom: 2px solid white;
+}
+
+.navbar {
+  padding: 33px;
+  background-color: black;
+}
+ 
 .navbar-brand {
  /* navbar on probe pages */
   position: absolute;
@@ -140,6 +160,7 @@ a:hover {
  * 
  **/
 
+
  /* homepage top banner */
 .hero-unit {
   background-image: url('/assets/img/lunar_pano.jpg');
@@ -149,21 +170,6 @@ a:hover {
   margin: 0;
   border: 0;
 }
-
-.site_name {
-  font-family: "orator-std",sans-serif;
-  font-style: normal;
-  color: #f7eedf;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  line-height: 1.7;
-  font-weight: 200;
-  margin: 0;
-  padding: 0;
-  padding-bottom: 7px;
-  border-bottom: 2px solid white;
-}
-
 .hero-unit h1 {
   text-align: center;
   font-size: 1.8em;
@@ -225,11 +231,6 @@ a:hover {
 .project .circle .cat {
   margin: 35px 0 15px 0;
   font-size: 0.7em;
-}
-
-.navbar {
-  background-color: black;
-  height: 4em;
 }
 
 
