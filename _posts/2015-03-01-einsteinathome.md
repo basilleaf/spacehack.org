@@ -4,12 +4,12 @@ title:  Einstein@Home
 category: Gravitational Waves
 thumbnail: galaxyzooradio_square.jpg
 banner: galaxyzooradio_rectangle.jpg
-website: http://radio.galaxyzoo.org/
-twitter: http://twitter.com/radiogalaxyzoo
+website: http://einstein.phys.uwm.edu/
+twitter: http://twitter.com/einsteinathome
 facebook: 
-tags: black holes, radio, zooniverse, infrared,
+tags: gravitational waves, ligo, einstein, pulsars, neutron stars, arecibo, fermi,
 
 caption: >
-    (image by ESO/WFI (Optical); MPIfR/ESO/APEX/A.Weiss et al. (Submillimetre); NASA/CXC/CfA/R.Kraft et al. (X-ray))
+    (image by )
 ---
-Discover supermassive black holes and along th way help astronomers learn how and why they often form in the center of most galaxies. By making observations of supermassive black holes and their host galaxies in radio and infrared wavelengths, more data can be created, making ever more accurate models of how supermassive black holes work. Galaxy Zoo Radio invites people of all ages around the world to participate in making new discoveries and collectively contribute to new research.
+Contribute to the search for gravitational waves and discover new neutron stars (also known as pulsars). Gravitational waves are ripples in the fabric of spacetime itself caused by astronomical events and celestial bodies, as predicted by Albert Einstein in his General Theory of Relativity. In 2015, the first direct detection of gravitational waves was achieved by a laser-based observatory on Earth. The astronomical event of two black holes colliding created this first detectable gravitational wave. Further detection of gravitational waves is expected to usher in a new era of astronomy. Einstein@Home uses your computer’s idle time to search for gravitational waves and provides an active online community to collaborate with. 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  European Rover
+title:  European Rover Challenge
 category: Mars
 thumbnail: europeanrover_square.jpg
 banner: europeanrover_rectangle.jpg
