@@ -134,7 +134,7 @@ a:hover {
 
 .sidebar {
   color: #f7eedf;
-  padding: 20px 90px;  
+  padding: 20px 30px 20px 90px;  
 }
 
 .sidebar h1 {
@@ -157,8 +157,8 @@ ul.probe_links, ul.tags {
   line-height: 1.1;
   font-weight: 300;
   margin-bottom: 30px;
-  margin-top: 15px;
-  padding-left: 95px;
+  padding-top: 15px;
+  padding-left: 20px;
   padding-right: 30px;
   line-height: 1.7;
   /* letter-spacing: 0.3em */
