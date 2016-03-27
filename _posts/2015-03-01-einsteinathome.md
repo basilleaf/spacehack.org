@@ -4,7 +4,7 @@ title:  Einstein@Home
 category: Gravitational Waves
 thumbnail: einstein_square.jpg
 banner: einstein_rectangle.jpg
-website: http://einstein.phys.uwm.edu/
+website: http://einstein.phys.uwm.edu
 twitter: http://twitter.com/einsteinathome
 facebook: 
 tags: gravitational waves, ligo, einstein, pulsars, neutron stars, arecibo, fermi,

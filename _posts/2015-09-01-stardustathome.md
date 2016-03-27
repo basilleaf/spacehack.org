@@ -4,7 +4,7 @@ title:  Stardust@home
 category: Stars
 thumbnail: stardust_square.jpg
 banner: stardust_rectangle.jpg
-website: http://stardustathome.ssl.berkeley.edu/
+website: http://stardustathome.ssl.berkeley.edu
 twitter:
 facebook: 
 tags: stardust, comets, interstellar, stars,

@@ -4,7 +4,7 @@ title:  European Rover Challenge
 category: Mars
 thumbnail: europeanrover_square.jpg
 banner: europeanrover_rectangle.jpg
-website: http://www.roverchallenge.eu/
+website: http://www.roverchallenge.eu
 twitter: http://twitter.com/rover_challenge
 facebook: http://facebook.com/europeanroverchallenge
 tags: mars, rovers, robots, challenge, international, students,

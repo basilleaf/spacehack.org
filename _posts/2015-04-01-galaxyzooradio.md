@@ -4,7 +4,7 @@ title:  Galaxy Zoo Radio
 category: Black Holes
 thumbnail: galaxyzooradio_square.jpg
 banner: galaxyzooradio_rectangle.jpg
-website: http://radio.galaxyzoo.org/
+website: http://radio.galaxyzoo.org
 twitter: http://twitter.com/radiogalaxyzoo
 facebook: 
 tags: black holes, radio, zooniverse, infrared,
