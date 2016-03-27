@@ -7,7 +7,11 @@ banner: sungrazer_rectangle.jpg
 website: http://sungrazer.nrl.navy.mil
 twitter: https://twitter.com/SungrazerComets
 facebook:
-tags: comets, soho, stereo, international,
+tags: 
+    - comets
+    - soho
+    - stereo
+    - international
 
 caption: >
     (image by ESA/Rosetta/NAVCAM)

@@ -7,7 +7,13 @@ banner: stardust_rectangle.jpg
 website: http://stardustathome.ssl.berkeley.edu
 twitter:
 facebook: 
-tags: stardust, comets, interstellar, stars,
+tags: 
+    - stardust
+    - comets
+    - interstellar
+    - stars
+
+
 
 caption: >
     (image by Gregg Ruppel)

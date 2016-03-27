@@ -7,7 +7,12 @@ banner: sunspotter_rectangle.jpg
 website: https://www.sunspotter.org
 twitter: https://twitter.com/sunspotter_org
 facebook: 
-tags: sun, sunspots, heliophysics, soho, solar eruptions,
+tags: 
+    - sun
+    - sunspots
+    - heliophysics
+    - soho
+    - solar eruptions
 
 caption: >
     (image by SST, Royal Swedish Academy of Sciences)

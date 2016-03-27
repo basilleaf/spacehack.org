@@ -7,7 +7,11 @@ banner: galaxyzooradio_rectangle.jpg
 website: http://radio.galaxyzoo.org
 twitter: http://twitter.com/radiogalaxyzoo
 facebook: 
-tags: black holes, radio, zooniverse, infrared,
+tags: 
+    - black holes
+    - radio
+    - zooniverse
+    - infrared
 
 caption: >
     (image by ESO/WFI (Optical); MPIfR/ESO/APEX/A.Weiss et al. (Submillimetre); NASA/CXC/CfA/R.Kraft et al. (X-ray))

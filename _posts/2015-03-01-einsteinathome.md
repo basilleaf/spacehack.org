@@ -7,7 +7,14 @@ banner: einstein_rectangle.jpg
 website: http://einstein.phys.uwm.edu
 twitter: http://twitter.com/einsteinathome
 facebook: 
-tags: gravitational waves, ligo, einstein, pulsars, neutron stars, arecibo, fermi,
+tags: 
+    - gravitational waves
+    - ligo
+    - einstein
+    - pulsars
+    - neutron stars
+    - arecibo
+    - fermi
 
 caption: >
     (image by NASA/CXC/SAO/F.Seward et al)

@@ -7,7 +7,11 @@ banner: citiesatnight_rectangle.jpg
 website: http://citiesatnight.org
 twitter: http://twitter.com/cities4tnight
 facebook: 
-tags: astronauts, iss, light pollution, earth, 
+tags: 
+    - astronauts
+    - iss
+    - light pollution
+    - earth
 
 caption: >
     (image by NASA)

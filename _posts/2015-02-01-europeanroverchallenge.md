@@ -7,7 +7,13 @@ banner: europeanrover_rectangle.jpg
 website: http://www.roverchallenge.eu
 twitter: http://twitter.com/rover_challenge
 facebook: http://facebook.com/europeanroverchallenge
-tags: mars, rovers, robots, challenge, international, students,
+tags: 
+    - mars
+    - rovers
+    - robots
+    - challenge
+    - international
+    - students
 
 caption: >
     (image by NASA/JPL-Caltech/MSSS)
