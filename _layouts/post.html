@@ -17,15 +17,18 @@ layout: default
     <ul class = "probe_links">
 
       {% if page.website %}
-        <li><a href = "{{ page.website }}">{{ page.website }}</a></li>
+        {% assign web_label = page.website | split:'://' | last %}
+        <li><a href = "{{ page.website }}">{{ web_label }}</a></li>
       {% endif %}
 
       {% if page.twitter %}
-        <li><a href = "{{ page.twitter }}">{{ page.twitter }}</a></li>
+        {% assign twitter_label = page.twitter | split:'twitter.com/' | last %}
+        <li><a href = "{{ page.twitter }}">{{ twitter_label }}</a></li>
       {% endif %}
 
       {% if page.facebook %}
-        <li><a href = "{{ page.facebook }}">{{ page.facebook }}</a></li>
+        {% assign fb_label = page.facebook | split:'facebook.com/' | last %}
+        <li><a href = "{{ page.facebook }}">{{ fb_label }}</a></li>
       {% endif %}
 
     </ul>
