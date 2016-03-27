@@ -141,9 +141,9 @@ a:hover {
   text-transform: uppercase;
 }
 
-ul.probe_links {
+ul.probe_links, ul.tags {
+  list-style-type: none;
   margin-top: 45px;
-
 }
 
 .small_underline {

@@ -33,6 +33,23 @@ layout: default
 
     </ul>
 
+    {% if page.tags %}
+
+      {% assign c = 0 %}
+      <ul class = "tags">
+
+        {% for tag in page.tags %}
+          
+          <li>{{ tag }}</li>
+          
+          {% comment %} only display 3 {% endcomment %}
+          {% assign c = c | plus: 1 %}
+          {% if c == 3 %} {% break %} {% endif %}
+          
+        {% endfor %}
+      </ul>
+    {% endif %}
+
   </div><!-- page-content -->
 
   <div class="content post-content col-sm-8">
