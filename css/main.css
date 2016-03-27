@@ -116,7 +116,7 @@ a:hover {
 }
  
 .navbar-brand {
- /* navbar on probe pages */
+ /* navbar on project pages */
   position: absolute;
   width: 100%;
   left: 0;
@@ -129,40 +129,41 @@ a:hover {
 
 
 /**
- * Posts aka Probes
+ * Posts aka projects
  */
-.post {
-  color: white;
+
+.sidebar {
+  color: #f7eedf;
+  padding: 20px 90px;  
 }
 
-.post-header {
-  margin-bottom: 30px;
+.sidebar h1 {
+  text-transform: uppercase;
 }
 
-.post-title {
-  font-size: 5em;
-  letter-spacing: -1px;
-  line-height: 1;
+ul.probe_links {
+  margin-top: 45px;
+
 }
 
-@media screen and (max-width: 800px) {
-  .post-title {
-    font-size: 36px;
-  };
+.small_underline {
+  border-bottom: 3px solid #f7eedf;
+  width: 30px;
 }
+
 .post-content {
   color: #f7eedf;
   font-size: 1.6em;
   line-height: 1.1;
+  font-weight: 300;
   margin-bottom: 30px;
   margin-top: 15px;
   padding-left: 95px;
   padding-right: 30px;
   line-height: 1.7;
-
   /* letter-spacing: 0.3em */
-
 }
+
 
 
 /**

@@ -2,20 +2,18 @@
 layout: default
 ---
 
-
 <div class="post_banner">
-    <img class = "img_fit" src="/assets/img/{{ page.banner }}" alt="{{ page.title }}">
+  <img class = "img_fit" src="/assets/img/{{ page.banner }}" alt="{{ page.title }}">
 </div>      
-
 
 <div class="page-content row-fluid">
 
-  <div class="content col-sm-4">
+  <div class="content sidebar col-sm-4">
+      
+    <h1>{{ page.title }}</h1>
 
-    <div class = "probe_title">
-      {{ page.title }}
-    </div> 
-
+    <div class = "small_underline"></div>
+      
     <ul class = "probe_links">
 
       {% if page.website %}
@@ -32,13 +30,10 @@ layout: default
 
     </ul>
 
-  </div>
-
+  </div><!-- page-content -->
 
   <div class="content post-content col-sm-8">
-
     {{ page.content }}
-
-  </div>
+  </div><!-- post-content -->
 
 </div>
