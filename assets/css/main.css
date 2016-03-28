@@ -132,6 +132,7 @@ a:hover {
  * Posts aka projects
  */
 
+/* sidebar */
 .sidebar {
   color: #f7eedf;
   padding: 20px 30px 20px 90px;  
@@ -139,17 +140,39 @@ a:hover {
 
 .sidebar h1 {
   text-transform: uppercase;
+  font-size: 2.7em;
 }
 
-ul.probe_links, ul.tags {
+/* project_links */
+ul.project_links, ul.tags {
   list-style-type: none;
   margin: 20px 0 10px 0;
 }
 
-ul.probe_links li {
+ul.project_links, ul.project_links li {
+  padding:0;
+}
+ul.project_links li {
+  padding: 0; 
   font-size: 1.6em;
+  padding-left:30px;
+  padding-bottom: 10px;
+}
+.link {
+  background: url("/assets/css/link.svg") no-repeat;
+}
+.twitter {
+  background: url("/assets/css/twitter.svg") no-repeat;
+}
+.facebook {
+  background: url("/assets/css/facebook.svg") no-repeat;
+}
+.twitter, .facebook, .link {
+  background-size: 1.1em;
+  background-position: 0 5px;
 }
 
+/* tags */
 ul.tags li {
   display: inline-block;
   padding: 3px 10px;
