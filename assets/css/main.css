@@ -57,15 +57,6 @@ ul, ol, dl, figure,
 
 
 /**
- * Images
- */
-img {
-  max-width: 100%;
-  vertical-align: middle;
-}
-
-
-/**
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
@@ -116,7 +107,6 @@ a:hover {
 }
  
 .navbar-brand {
- /* navbar on project pages */
   position: absolute;
   width: 100%;
   left: 0;
@@ -131,6 +121,23 @@ a:hover {
 /**
  * Posts aka projects
  */
+
+/* project banner */
+/* 4000 × 1201 */
+.project_banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.project_banner img {
+  padding-top:60px;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+
 
 /* sidebar */
 .sidebar {
@@ -315,20 +322,6 @@ ul.tags li {
 .post-link {
   display: block;
   font-size: 24px;
-}
-
-.post_banner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-
-.post_banner img {
-  padding-top:60px;
-  flex-shrink: 0;
-  min-width: 100%;
-  min-height: 100%;
 }
 
 
