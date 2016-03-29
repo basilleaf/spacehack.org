@@ -8,8 +8,11 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
-body {
+@font-face {
   font-family: 'Quicksand', sans-serif;
+
+}
+body {
   /* we have 300 and 700 */
   font-weight: 300;
   color: #f7eedf;
@@ -83,8 +86,7 @@ a:hover {
  * Posts aka projects
  */
 
-/* project banner */
-/* 4000 × 1201 */
+/* project banner (image is 4000 × 1200) */
 .project_banner {
   display: flex;
   justify-content: center;
@@ -96,6 +98,7 @@ a:hover {
   padding-top:60px;
   flex-shrink: 0;
   width: 100%;
+  height: auto;
 }
 
 /* sidebar */
