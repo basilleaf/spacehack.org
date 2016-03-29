@@ -5,7 +5,15 @@
 
   <body>
 
-    <nav class="navbar navbar-dark navbar-fixed-top">
+    <nav class="navbar navbar-dark navbar-fixed-top
+
+    {% if page.path == 'index.html' %}
+
+      navbar_homepage
+
+    {% endif %}
+
+    ">
       <div class="container-fluid">
 
         <div class="navbar-header">
@@ -18,14 +26,15 @@
           </button>
 
           <a class="navbar-brand" href="/">
-            <h1 class="site_name">{{ site.title }}</h1>
+
+              <div class="site_name">{{ site.title }}</div>
+            
           </a>
 
         </div>
       </div>
     </nav>
 
-    <h2>{{ site.description }}</h2>
 
     {{ content }}
 

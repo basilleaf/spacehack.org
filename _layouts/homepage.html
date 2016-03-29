@@ -1,54 +1,47 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
 
-  {% include head.html %}
+<div class="hero-unit">
 
-  <body>
+  <div>
+    <h1 class="site_name">{{ site.title }}</h1>
+  </div>
 
-    <div class="hero-unit">
+</div>
 
-      <div>
-        <h1 class="site_name">{{ site.title }}</h1>
+<div>
+
+  <h2 class = "tagline">{{ site.description }}</h2>
+
+</div>
+
+
+
+<div class="homepage-grid row-fluid">
+
+  {% for post in site.posts %}
+    <div class = "project col-sm-4">
+
+      <img src="/assets/img/{{ post.thumbnail }}" alt="{{ post.title }}" class="img-responsive">
+
+      <div class="circle">
+
+        <div class = "cat">
+          {{ post.category }}
+        </div>
+
+        <div class = "project-underline">
+          <hr>
+        </div>
+
+        <h2>
+          <a class="post-link" href="{{ post.url}}">{{ post.title }}</a>
+        </h2>
+
       </div>
 
     </div>
 
-    <div>
-
-      <h2 class = "tagline">{{ site.description }}</h2>
-
-    </div>
-
-    <div class="homepage-grid row-fluid">
-
-      {% for post in site.posts %}
-        <div class = "project col-sm-4">
-
-          <img src="/assets/img/{{ post.thumbnail }}" alt="{{ post.title }}" class="img-responsive">
-
-          <div class="circle">
-
-            <div class = "cat">
-              {{ post.category }}
-            </div>
-
-            <div class = "project-underline">
-              <hr>
-            </div>
-
-            <h2>
-              <a class="post-link" href="{{ post.url}}">{{ post.title }}</a>
-            </h2>
-
-          </div>
-
-        </div>
-
-      {% endfor %}
-    </div>
-
-    {% include footer.html %}
-
-  </body>
-
-</html>
+  {% endfor %}
+</div>
