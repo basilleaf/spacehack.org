@@ -52,7 +52,6 @@ a:hover {
 * 
 **/
 .site_name {
-  display: inline-block;
   padding-top: 10px;
   padding-bottom: 10px;
   transform: scaleY(1.1);
@@ -62,6 +61,8 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 300;
+  width: 5.8em;
+  margin: auto;
   border-bottom: 2px solid white;
 }
 
@@ -204,6 +205,16 @@ ul.tags li {
   height: 350px;
   background-position: center;
   background-size: cover;
+}
+
+h2.tagline  {
+  margin:0; padding:0;
+  padding-top:45px;
+  color: #7d7b80;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  text-align: center;
+  font-weight: 300;
 }
 
 /* homepage project list */
