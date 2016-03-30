@@ -71,16 +71,29 @@ a:hover {
   margin:0; padding:0;
   padding-bottom:20px;
   text-align: center;
-  background-color: transparent;
+  background-color: black;
   font-size: 2.3em;
   z-index: 10000;
 }
 @media (min-width: 979px) {
+  #sticky-anchor {
+    top: 40px; /* same-ish as #sticky top */
+    left:0;
+  }
   #sticky {
     position: relative;
-    top: 50px;
+    top: 40px;
   }
 }
+@media (max-width: 767px) {
+  #sticky {
+    /* having it black makes a nicer interaction when scrolling, but 
+       on smaller screens it cuts into moon image too much */
+    background-color: transparent; 
+  }
+
+}
+
 
 #sticky.stick {
     background-color: black;
@@ -245,17 +258,17 @@ ul.tags li {
 
 @media (min-width: 1200px) {
   .hero-image { 
-    background-size: 120%;
-    background-position: -240px -50px;
-    height: 220px;
+    background-size: 160%;
+    background-position: -500px -30px;
+    height: 280px;
   }
 }
 
 @media (min-width: 979px) and (max-width: 1199px) {
   .hero-image { 
     background-size: 160%;
-    background-position: -480px -50px;
-    height: 230px;
+    background-position: -480px -30px;
+    height: 280px;
   }
 }
 
@@ -290,7 +303,7 @@ ul.tags li {
 .tagline  {
   width:100%;
   position: absolute;
-  top:280px; 
+  top:330px; 
   height: 100px;
   margin:0; padding:0;
   text-align: center;
@@ -307,7 +320,7 @@ ul.tags li {
 /* homepage project list */
 .homepage-grid {
   position: absolute;
-  top:300px; 
+  top:350px; 
   padding: 50px 25px;
   margin: 0 auto;
 }
