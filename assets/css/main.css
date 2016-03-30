@@ -106,8 +106,20 @@ a:hover {
   font-weight: 300;
   width: 5.8em;
   margin: auto;
+  padding-bottom: 10px;
   border-bottom: 2px solid white;
 }
+.site_name a {
+  color: #f7eedf;
+  text-decoration: none;
+}
+.site_name a:visited {
+  color: #f7eedf;
+}
+.site_name a:hover {
+  color: #f7eedf;
+}
+
 
 
 /**
