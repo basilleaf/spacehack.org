@@ -27,6 +27,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
+.hidden {
+  margin-left:-5000px;
+}
 
 /**
  * Links
@@ -48,15 +51,55 @@ a:hover {
 
 /** 
 * 
-* Site Nav Bar
+* homepage site name
 * 
 **/
+
+/* via http://jsfiddle.net/qB4Z2/ */
+/* todo: rename these */
+#sticky-anchor {
+  position: absolute;
+  top: 50px; /* same-ish as #sticky top */
+  left:0;
+}
+
+#sticky { 
+  margin:0; padding:0;
+  position: relative;
+  top: 50px;
+  left:0;
+  margin:0; padding:0;
+  padding-bottom:20px;
+  text-align: center;
+  background-color: transparent;
+  font-size: 2.3em;
+  z-index: 10000;
+}
+@media (min-width: 979px) {
+  #sticky {
+    position: relative;
+    top: 50px;
+  }
+}
+
+#sticky.stick {
+    background-color: black;
+    margin-top: 0 !important;
+    width:100%;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    z-index: 10000;
+}
+
 .site_name {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 0;
+  padding-top:10px;
   transform: scaleY(1.1);
   font-family: "orator-std",sans-serif;
   font-style: normal;
+  font-size:0.7em;
+  font-weight: 300;
   color: #f7eedf;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -64,22 +107,6 @@ a:hover {
   width: 5.8em;
   margin: auto;
   border-bottom: 2px solid white;
-}
-
-.navbar {
-  padding: 33px;
-  background-color: black;
-}
- 
-.navbar-brand {
-  position: absolute;
-  width: 100%;
-  left: 0;
-  top: 0;
-  font-size: 1.7em;
-  text-align: center;
-  margin: auto;
-  padding: 5px 0;
 }
 
 
@@ -122,21 +149,26 @@ ul.project_links, ul.tags {
 ul.project_links, ul.project_links li {
   padding:0;
 }
+
 ul.project_links li {
   padding: 0; 
   font-size: 1.6em;
   padding-left:30px;
   padding-bottom: 10px;
 }
+
 .link {
   background: url("/assets/css/link.svg") no-repeat;
 }
+
 .twitter {
   background: url("/assets/css/twitter.svg") no-repeat;
 }
+
 .facebook {
   background: url("/assets/css/facebook.svg") no-repeat;
 }
+
 .twitter, .facebook, .link {
   background-size: 1.1em;
   background-position: 0 5px;
@@ -176,7 +208,6 @@ ul.tags li {
 }
 
 
-
 /**
  * 
  * Homepage
@@ -184,32 +215,76 @@ ul.tags li {
  **/
 
  /* homepage top banner hero unit image */
-.hero-unit {
+.hero-image{ /* big hero astronaut image */
+  position:absolute;
+  top:0;
   background-image: url('/assets/img/lunar_pano.jpg');
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
   background-color: black;
-  height: 300px;
+  background-size: 300%;
+  background-position: -440px -20px;
+  height: 180px;
+  width: 100%;
   margin: 0;
   border: 0;
+  z-index:0;
 }
 
-.hero-unit h1 {
-  text-align: center;
-  font-size: 1.8em;
-  margin: auto;
-  padding-top: 70px;
+@media (min-width: 1200px) {
+  .hero-image { 
+    background-size: 120%;
+    background-position: -240px -50px;
+    height: 220px;
+  }
 }
 
-.fill {
-  width: 100%;
-  height: 350px;
-  background-position: center;
-  background-size: cover;
+@media (min-width: 979px) and (max-width: 1199px) {
+  .hero-image { 
+    background-size: 160%;
+    background-position: -480px -50px;
+    height: 230px;
+  }
 }
 
-h2.tagline  {
+@media (min-width: 768px) and (max-width: 979px) {
+  .hero-image { 
+    height: 220%;
+    background-size: 120%;
+    background-position: -180px 0px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .hero-image { 
+      background-size: 100%;
+      background-position: 0px top;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 480px) {
+.hero-image {
+
+ }
+}
+
+@media (max-width: 374px) {
+  .hero-image {
+    background-position: -380px -20px;
+  }
+}
+
+
+.tagline  {
+  width:100%;
+  position: absolute;
+  top:280px; 
+  height: 100px;
   margin:0; padding:0;
-  padding-top:45px;
+  text-align: center;
+}
+
+.tagline h2 {
   color: #7d7b80;
   text-transform: uppercase;
   font-size: 1.2em;
@@ -218,11 +293,9 @@ h2.tagline  {
 }
 
 /* homepage project list */
-.navbar_homepage {
-  display:none;
-}
-
 .homepage-grid {
+  position: absolute;
+  top:300px; 
   padding: 50px 25px;
   margin: 0 auto;
 }
@@ -307,7 +380,10 @@ h2.tagline  {
  * Site footer
  */
 .site-footer {
-  clear: both;
+  display:none;
+  clear:both;
+  position: absolute;
+  bottom:0;
   border-top: 1px solid #e8e8e8;
   padding: 30px 0;
 }
