@@ -234,6 +234,22 @@ ul.tags li {
 
 
 /**
+ * generated previous pages scraped from old wordpress site;
+ */
+.scrape_from_old_wordpress img, .scrape_from_old_wordpress em:nth-of-type(1)  {
+  /* hide the image and its caption */
+  display:none;
+}
+.scrape_from_old_wordpress {
+  padding:0; margin:0;
+  margin-top:-30px;
+}
+.nobanner {
+  height:100px;
+}
+
+
+/**
  * 
  * Homepage
  * 

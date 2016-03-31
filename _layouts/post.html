@@ -3,11 +3,15 @@ layout: default
 default_fixed_nav: true
 ---
 
+{% if page.banner %}
 <div class="project_banner">
 
   <img class = "img_fit" src="/assets/img/{{ page.banner }}" alt="{{ page.title }}">
 
 </div>      
+{% else %}
+<div class = "nobanner"></div>
+{% endif %}
 
 <div class="page-content row-fluid">
 
