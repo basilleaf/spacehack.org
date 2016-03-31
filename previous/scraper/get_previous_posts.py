@@ -1,3 +1,5 @@
+# via http://spacehack.org/?json=1
+
 with open("posts.json") as json_file:
     json_data = json.load(json_file)
 
