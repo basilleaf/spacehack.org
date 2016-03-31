@@ -10,7 +10,7 @@ default_fixed_nav: true
 
 </div>      
 {% else %}
-<div class = "nobanner"></div>
+<div class = "nobanner">
 {% endif %}
 
 <div class="page-content row-fluid">
@@ -41,10 +41,9 @@ default_fixed_nav: true
     </ul>
 
     {% if page.tags %}
-
       {% assign c = 0 %}
-      <ul class = "tags">
 
+      <ul class = "tags hidden-xs">
         {% for tag in page.tags %}
           
           <li>{{ tag }}</li>
@@ -57,10 +56,31 @@ default_fixed_nav: true
       </ul>
     {% endif %}
 
+
   </div><!-- page-content -->
 
   <div class="content post-content col-sm-7">
     {{ page.content }}
   </div><!-- post-content -->
+
+
+  {% if page.tags %}
+    {% assign c = 0 %}
+
+    <ul class = "tags visible-xs">
+      {% for tag in page.tags %}
+        
+        <li>{{ tag }}</li>
+        
+        {% comment %} only display 3 {% endcomment %}
+        {% assign c = c | plus: 1 %}
+        {% if c == 3 %} {% break %} {% endif %}
+
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+
+
 
 </div>
