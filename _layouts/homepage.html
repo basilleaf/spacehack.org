@@ -18,24 +18,27 @@ default_fixed_nav: false
   {% for post in site.posts %}
     <div class = "project col-sm-4">
 
-      <img width = "700px" src="/assets/img/{{ post.thumbnail }}" alt="{{ post.title }}" class="img-responsive">
+      <a class="post-link" href="{{ post.url}}">
 
-      <div class="circle">
+        <img width = "700px" src="/assets/img/{{ post.thumbnail }}" alt="{{ post.title }}" class="img-responsive">
 
-        <div class = "cat">
-          {{ post.category }}
-        </div>
+        <div class="circle">
 
-        <div class = "project-underline">
-          <hr>
-        </div>
+          <div class = "cat">
+            {{ post.category }}
+          </div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url}}">{{ post.title }}</a>
-        </h2>
+          <div class = "project-underline">
+            <hr>
+          </div>
 
-      </div>
+          <h2>
+            {{ post.title }}
+          </h2>
 
+        </div><!-- /circle -->
+      </a>
+  
     </div>
 
   {% endfor %}

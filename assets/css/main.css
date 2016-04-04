@@ -109,10 +109,9 @@ a:hover {
   padding: 0;
   padding-top:10px;
   transform: scaleY(1.1);
-  font-family: "orator-std",sans-serif;
+  font-family: orator-std ,sans-serif;
   font-style: normal;
   font-size:0.7em;
-  font-weight: 300;
   color: #f7eedf;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -344,41 +343,40 @@ ul.tags li {
 
 .project .circle {
   position: absolute;
-  top: 60px;
+  top: 17%;
   left: 0;
   right: 0;
   margin: auto;
-  width: 200px;
-  height: 200px;
+  width: 60%;
+  height: 65%;
   border-radius: 50%;
-  font-size: 2.1em;
   text-align: center;
   background: black;
-  font-family: "orator-std",sans-serif;
-  font-style: normal;
-  font-weight: 400;
   color: #f7eedf;
   text-transform: uppercase;
 }
 
+.project .circle .cat {
+  margin: 50px 0 15px 0;
+  font-size: 1.4em;
+  font-family: orator-std ,sans-serif;
+  font-weight: 400;
+}
 .project .circle h2 {
   margin: 20px 0 0 0;
   color: #f7eedf;
-}
-
-.project .circle h2 a {
-  color: #f7eedf;
+  font-size: 1.1em;
+  font-family: orator-std ,sans-serif;
+  font-weight: 400;
 }
 
 .project-underline {
   margin: 0 auto;
   width: 50%;
+  font-weight:medium;
 }
 
-.project .circle .cat {
-  margin: 35px 0 15px 0;
-  font-size: 0.7em;
-}
+
 
 
 /**
