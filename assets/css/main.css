@@ -257,21 +257,20 @@ ul.tags li {
  **/
 
  /* homepage top banner hero unit image */
-.hero-image{ /* big hero astronaut image */
+.hero-image { /* big hero astronaut image */
   position:absolute;
   top:0;
-  background-image: url('/assets/img/lunar_pano.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
+  left:0;
+  /*
+  background-image: url('/assets/img/lunarlandscape2.jpg');
   background-color: black;
-  background-size: 300%;
-  background-position: -440px -20px;
-  height: 180px;
   width: 100%;
+  height: 280px;
   margin: 0;
   border: 0;
-  z-index:0;
+  */
 }
+/*
 @media (min-width: 1200px) {
   .hero-image { 
     background-size: 160%;
@@ -309,6 +308,7 @@ ul.tags li {
     background-position: -380px -20px;
   }
 }
+*/
 
 
 .tagline  {
