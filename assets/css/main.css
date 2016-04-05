@@ -362,13 +362,23 @@ ul.tags li {
 }
 
 .project .circle .cat {
-  margin: 45px 0 15px 0;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 28%;
+  width: 100%;
+  padding:0 20px;
   font-size: 1.2em;
   font-family: orator-std ,sans-serif;
   font-weight: 400;
 }
 .project .circle h2 { /* project title */
-  margin: 35px 0 0 0;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 60%;
+  width: 100%;
+  padding:0 20px;
   color: #f7eedf;
   font-size: 1.1em;
   font-family: orator-std ,sans-serif;
