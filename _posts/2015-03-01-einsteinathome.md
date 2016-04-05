@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Einstein@Home
-category: Gravitational Waves
+category: Spacetime
 thumbnail: einstein_square.jpg
 banner: einstein_rectangle.jpg
 website: http://einstein.phys.uwm.edu
