@@ -335,8 +335,12 @@ ul.tags li {
 }
 
 .project {
+  border:0;
+  margin:0; padding:0;
+  padding-left: 15px;
+  padding-right: 15px;
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .project .circle {
