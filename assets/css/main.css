@@ -345,12 +345,13 @@ ul.tags li {
   left: 0;
   right: 0;
   margin: auto;
-  width: 60%;
-  height: 65%;
+  width: 65%;
+  height: 70%;
   border-radius: 50%;
   text-align: center;
   background: black;
   color: #f7eedf;
+  background-color: #191621;
   text-transform: uppercase;
 }
 
@@ -371,7 +372,7 @@ ul.tags li {
 .project-underline {
   margin: 0 auto;
   width: 50%;
-  font-weight:medium;
+  color: #f7eedf;
 }
 
 
