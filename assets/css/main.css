@@ -172,7 +172,10 @@ ul.project_links, ul.tags {
   list-style-type: none;
   margin: 20px 0 10px 0;
 }
-
+ul.tags a {
+  color:  #f7eedf;
+  text-decoration: none;
+}
 ul.project_links, ul.project_links li {
   padding:0;
 }

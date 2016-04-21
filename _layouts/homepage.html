@@ -18,28 +18,9 @@ default_fixed_nav: false
 <div class="project-grid row-fluid">
 
   {% for post in site.posts %}
-    <div class = "project col-sm-4">
-
-      <a class="post-link" href="{{ post.url}}">
-
-        <img width = "700px" src="/assets/img/{{ post.thumbnail }}" alt="{{ post.title }}" class="img-responsive">
-
-        <div class="circle">
-
-          <div class = "cat">
-            {{ post.category }}
-          </div>
-
-          <div class = "project-underline"></div>
-
-          <h2 class = "{{ post.title | slugify }}">
-            {{ post.title }}
-          </h2>
-
-        </div><!-- /circle -->
-      </a>
   
-    </div><!-- /project -->
+    {% include grid_box.html %}
 
   {% endfor %}
+
 </div><!-- /grid -->
