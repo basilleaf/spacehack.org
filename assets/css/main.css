@@ -328,7 +328,7 @@ ul.tags li {
 }
 
 /* homepage project list */
-.homepage-grid {
+.project-grid {
   position: absolute;
   top:380px; 
   padding: 50px 25px;

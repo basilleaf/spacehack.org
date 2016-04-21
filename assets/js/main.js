@@ -13,7 +13,7 @@ function sticky_relocate() {
 
 $(function() {
 
-    if ($('.homepage-grid').length) {
+    if ($('.project-grid').length) {
 
         // do any of our homepage grid project titles need smaller font? 
         var min_length = 18;  // if title larger than this then shrink its font
