@@ -56,6 +56,7 @@ a:hover {
 **/
 
 /* via http://jsfiddle.net/qB4Z2/ */
+/* nav header */
 /* todo: rename these */
 #sticky-anchor {
   position: absolute;
@@ -105,6 +106,7 @@ a:hover {
     z-index: 10000;
 }
 
+/* site title */
 .site_name {
   padding: 0;
   padding-top:10px;
@@ -159,12 +161,13 @@ a:hover {
 /* sidebar */
 .sidebar {
   color: #f7eedf;
-  padding: 20px 30px 20px 90px;  
+  padding: 20px 30px 20px 120px;  
 }
 
 .sidebar h1 {
   text-transform: uppercase;
-  font-size: 2.7em;
+  font-size: 2.5em;
+  font-weight: 500;
 }
 
 /* project_links */
@@ -224,17 +227,27 @@ ul.tags li {
   width: 30px;
 }
 
+/* project post content section */
 .post-content {
   color: #f7eedf;
-  font-size: 1.6em;
-  line-height: 1.1;
-  font-weight: 300;
+  font-size: 1.5em;
+  font-weight: 100;
+  letter-spacing: 2px;
+
   margin-bottom: 30px;
   padding-top: 15px;
-  padding-left: 20px;
-  padding-right: 30px;
+  padding-left: 0;
+  padding-right: 40px;
   line-height: 1.7;
   /* letter-spacing: 0.3em */
+}
+@media (max-width: 768px) {
+  /*
+  .post-content { 
+    padding-left: 30px;
+  }
+  */
+
 }
 
 
