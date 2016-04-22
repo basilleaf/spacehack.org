@@ -163,13 +163,12 @@ a:hover {
   color: #f7eedf;
   padding: 20px 30px 20px 120px;  
 }
-
+/* project title */
 .sidebar h1 {
   text-transform: uppercase;
-  font-size: 2.5em;
+  font-size: 2.7em;
   font-weight: 500;
 }
-
 /* project_links */
 ul.project_links, ul.tags {
   list-style-type: none;
@@ -185,8 +184,8 @@ ul.project_links, ul.project_links li {
 
 ul.project_links li {
   padding: 0; 
-  font-size: 1.6em;
-  padding-left:30px;
+  font-size: 1.7em;
+  padding-left:50px;
   padding-bottom: 10px;
 }
 
@@ -203,7 +202,7 @@ ul.project_links li {
 }
 
 .twitter, .facebook, .link {
-  background-size: 1.1em;
+  background-size: 1.6em;
   background-position: 0 5px;
 }
 
@@ -215,7 +214,7 @@ ul.tags li {
   margin-top:10px;
   white-space: nowrap;
   text-transform: lowercase;
-  font-size: 1.5em;
+  font-size: 1.7em;
   border: 1px solid #77ccc9;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -224,13 +223,13 @@ ul.tags li {
 .small_underline {
   border-bottom: 3px solid #f7eedf;
   margin: 20px 0 50px 0;
-  width: 30px;
+  width: 45px;
 }
 
 /* project post content section */
 .post-content {
   color: #f7eedf;
-  font-size: 1.5em;
+  font-size: 2.1em;
   font-weight: 100;
   letter-spacing: 2px;
 
