@@ -191,18 +191,20 @@ ul.project_links li {
 
 .link {
   background: url("/assets/css/link.svg") no-repeat;
+  background-size: 1.0em;
 }
 
 .twitter {
   background: url("/assets/css/twitter.svg") no-repeat;
+  background-size: 1.2em;
 }
 
 .facebook {
   background: url("/assets/css/facebook.svg") no-repeat;
+  background-size: 1.0em;
 }
 
 .twitter, .facebook, .link {
-  background-size: 1.2em;
   background-position: 0 5px;
 }
 
