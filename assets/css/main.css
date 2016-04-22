@@ -184,7 +184,7 @@ ul.project_links, ul.project_links li {
 
 ul.project_links li {
   padding: 0; 
-  font-size: 1.7em;
+  font-size: 1.8em;
   padding-left:50px;
   padding-bottom: 10px;
 }
@@ -214,7 +214,7 @@ ul.tags li {
   margin-top:10px;
   white-space: nowrap;
   text-transform: lowercase;
-  font-size: 1.7em;
+  font-size: 1.8em;
   border: 1px solid #77ccc9;
   -moz-border-radius: 5px;
   border-radius: 5px;
