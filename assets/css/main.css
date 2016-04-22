@@ -166,7 +166,7 @@ a:hover {
 /* project title */
 .sidebar h1 {
   text-transform: uppercase;
-  font-size: 3.1em;
+  font-size: 3.3em;
   font-weight: 500;
 }
 /* project_links */
@@ -185,7 +185,7 @@ ul.project_links, ul.project_links li {
 ul.project_links li {
   padding: 0; 
   font-size: 1.8em;
-  padding-left:50px;
+  padding-left:40px;
   padding-bottom: 20px;
 }
 
@@ -202,7 +202,7 @@ ul.project_links li {
 }
 
 .twitter, .facebook, .link {
-  background-size: 1.6em;
+  background-size: 1.2em;
   background-position: 0 5px;
 }
 
