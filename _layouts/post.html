@@ -24,17 +24,17 @@ layout: default
 
       {% if page.website %}
         {% assign web_label = page.website | split:'://' | last %}
-        <li class = "link"><a href = "{{ page.website }}">{{ web_label }}</a></li>
+        <li class = "link"><a href = "{{ page.website }}">{{ web_label | truncate: 25 }}</a></li>
       {% endif %}
 
       {% if page.twitter %}
         {% assign twitter_label = page.twitter | split:'twitter.com/' | last %}
-        <li class = "twitter"><a href = "{{ page.twitter }}">{{ twitter_label }}</a></li>
+        <li class = "twitter"><a href = "{{ page.twitter }}">{{ twitter_label | truncate: 25 }}</a></li>
       {% endif %}
 
       {% if page.facebook %}
         {% assign fb_label = page.facebook | split:'facebook.com/' | last %}
-        <li class = "facebook"><a href = "{{ page.facebook }}">{{ fb_label }}</a></li>
+        <li class = "facebook"><a href = "{{ page.facebook }}">{{ fb_label | truncate: 25 }}</a></li>
       {% endif %}
 
     </ul>
