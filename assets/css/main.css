@@ -65,7 +65,6 @@ a:hover {
 }
 
 #sticky { 
-  margin:0; padding:0;
   position: relative;
   top: 50px;
   left:0;
@@ -73,55 +72,33 @@ a:hover {
   padding-bottom:20px;
   text-align: center;
   background-color: black;
-  font-size: 2.3em;
+  width:100%;
+  border:0;
   z-index: 10000;
 }
-@media (min-width: 979px) {
-  #sticky-anchor {
-    top: 40px; /* same-ish as #sticky top */
-    left:0;
-  }
-  #sticky {
-    position: relative;
-    top: 40px;
-  }
-}
-@media (max-width: 767px) {
-  #sticky {
-    /* having it black makes a nicer interaction when scrolling, but 
-       on smaller screens it cuts into moon image too much */
-    background-color: transparent; 
-  }
-
-}
-
 
 #sticky.stick {
-    background-color: black;
-    margin-top: 0 !important;
-    width:100%;
-    position: fixed;
-    top: 0;
-    text-align: center;
-    z-index: 10000;
+  position: fixed;
+  top: 0;
+  margin:0; padding:0;
+  border:0;
+  padding-bottom:20px;
 }
 
 /* site title */
 .site_name {
-  padding: 0;
+  padding: 0; margin:0;
   padding-top:10px;
   transform: scaleY(1.1);
   font-family: orator-std ,sans-serif;
   font-style: normal;
-  font-size:0.7em;
+  font-size: 1.7em;
   color: #f7eedf;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 300;
-  margin: auto;
   padding-bottom: 10px;
   /* underline */
-  width: 5.8em;
   border-bottom: 2px solid #f7eedf;
 }
 
@@ -282,6 +259,10 @@ ul.tags li {
   background-color: black;
   height: 230px;
 }
+.top_margin_adjust {
+    margin-top:-51px;
+}
+
 
 .tagline  {
   width:100%;
