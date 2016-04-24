@@ -27,8 +27,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
-.hidden {
-  margin-left:-5000px;
+.hidden { 
+  text-indent: -5000px;
 }
 
 /**
@@ -276,63 +276,18 @@ ul.tags li {
 
  /* homepage top banner hero unit image */
 .hero-image { /* big hero astronaut image */
-  position:absolute;
-  top:0;
-  left:0;
-  /*
   background-image: url('/assets/img/lunarlandscape2.jpg');
+  background-size:cover;
+  background-position: center center;
   background-color: black;
-  width: 100%;
-  height: 280px;
-  margin: 0;
-  border: 0;
-  */
+  height: 230px;
 }
-/*
-@media (min-width: 1200px) {
-  .hero-image { 
-    background-size: 160%;
-    background-position: -500px -30px;
-    height: 280px;
-  }
-}
-@media (min-width: 979px) and (max-width: 1199px) {
-  .hero-image { 
-    background-size: 160%;
-    background-position: -480px -30px;
-    height: 280px;
-  }
-}
-@media (min-width: 768px) and (max-width: 979px) {
-  .hero-image { 
-    height: 220%;
-    background-size: 120%;
-    background-position: -180px 0px;
-  }
-}
-@media (min-width: 481px) and (max-width: 767px) {
-  .hero-image { 
-      background-size: 100%;
-      background-position: 0px top;
-  }
-}
-@media (min-width: 375px) and (max-width: 480px) {
-.hero-image {
-
- }
-}
-@media (max-width: 374px) {
-  .hero-image {
-    background-position: -380px -20px;
-  }
-}
-*/
 
 .tagline  {
   width:100%;
-  position: absolute;
-  top:360px; 
-  margin:0; padding:0;
+  margin:0 20px; 
+  padding:0;
+  margin-top: 50px;
   text-align: center;
 }
 
@@ -346,8 +301,6 @@ ul.tags li {
 
 /* homepage project list */
 .project-grid {
-  position: absolute;
-  top:380px; 
   padding: 50px 25px;
   margin: 0 auto;
 }
@@ -408,7 +361,6 @@ ul.tags li {
   top: 50%;
   left: 25%;
   margin: 0 auto;
-  border: 1px solid #f7eedf;
   color: #f7eedf;
   width: 50%;
   border-bottom: 2px solid #f7eedf;
