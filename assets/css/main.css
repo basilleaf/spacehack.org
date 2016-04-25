@@ -266,8 +266,7 @@ ul.tags li {
 
 .tagline  {
   width:100%;
-  margin:0 20px; 
-  padding:0;
+  margin:0; padding:0;
   margin-top: 50px;
   text-align: center;
 }
