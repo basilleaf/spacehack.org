@@ -4,10 +4,20 @@ $(function() {
 
   $('.header').scrollToFixed({
       postFixed: function() { 
+
+        $('.tagline').css('margin-top', '-30px'); 
         $(this).css('background-color', 'transparent'); 
+
       },
       preFixed: function() { 
-        $(this).css('background-color', 'black'); 
+
+        $('.tagline').css('margin-top', '-10px'); 
+
+        $(this).animate({
+          backgroundColor: "black",
+          background: "black",
+        }, 300);
+
       }
   });
 
