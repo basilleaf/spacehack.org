@@ -9,9 +9,9 @@ twitter: https://twitter.com/SungrazerComets
 facebook:
 tags: 
     - comets
+    - international
     - soho
     - stereo
-    - international
 
 caption: >
     (image by ESA/Rosetta/NAVCAM)

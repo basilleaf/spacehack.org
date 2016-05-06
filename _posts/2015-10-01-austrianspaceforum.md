@@ -8,12 +8,11 @@ website: http://oewf.org/en/become-member/want-become-research-associate/
 twitter: http://twitter.com/oewf
 facebook: http://www.facebook.com/spaceforum
 tags: 
+    - astrobiology
+    - astronauts
+    - international
     - mars
     - rovers
-    - astronauts
-    - robots
-    - international
-    - astrobiology
 
 caption: >
     (image by OeWF, Katja Zanella-Kux)

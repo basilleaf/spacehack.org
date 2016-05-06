@@ -9,9 +9,9 @@ twitter: http://twitter.com/cities4tnight
 facebook: 
 tags: 
     - astronauts
+    - earth
     - iss
     - light pollution
-    - earth
 
 caption: >
     (image by NASA)

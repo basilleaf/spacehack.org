@@ -8,9 +8,9 @@ website: https://www.planetfour.org/
 twitter: https://twitter.com/Planet_Four
 facebook: https://www.facebook.com/PlanetFourZooniverse
 tags: 
+    - climate
     - mars
     - mro
-    - climate
 
 caption: >
     (image by NASA/JPL/University of Arizona)

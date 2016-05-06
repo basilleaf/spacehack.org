@@ -9,9 +9,9 @@ website: http://www.futureengineers.org/thinkoutsidethebox
 twitter: https://twitter.com/K12FutureE
 facebook: https://www.facebook.com/K12futureengineers
 tags: 
+    - 3d printing
     - astronauts
     - iss
-    - 3d printing
 
 caption: >
     (image by NASA)

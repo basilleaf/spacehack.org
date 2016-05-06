@@ -8,12 +8,10 @@ website: http://stardustathome.ssl.berkeley.edu
 twitter:
 facebook: 
 tags: 
-    - stardust
     - comets
     - interstellar
+    - stardust
     - stars
-
-
 
 caption: >
     (image by Gregg Ruppel)
