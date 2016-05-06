@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Stardust@home
+title:  Stardust @home
 category: Stars
 thumbnail: stardust_square.jpg
 banner: stardust_rectangle.jpg

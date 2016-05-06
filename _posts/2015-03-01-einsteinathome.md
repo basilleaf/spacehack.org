@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Einstein@Home
+title:  Einstein @Home
 category: Spacetime
 thumbnail: einstein_square.jpg
 banner: einstein_rectangle.jpg
