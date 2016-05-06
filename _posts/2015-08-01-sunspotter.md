@@ -8,7 +8,7 @@ website: https://www.sunspotter.org
 twitter: https://twitter.com/sunspotter_org
 facebook: 
 tags: 
-    - heliophysics
+    - soho
     - solar eruptions
     - sun
     - sunspots
