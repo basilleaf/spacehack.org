@@ -8,11 +8,10 @@ website: http://www.roverchallenge.eu
 twitter: http://twitter.com/rover_challenge
 facebook: http://facebook.com/europeanroverchallenge
 tags: 
-    - mars
-    - rovers
-    - robots
     - challenge
     - international
+    - mars
+    - rovers
     - students
 
 caption: >

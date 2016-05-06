@@ -8,11 +8,11 @@ website: https://www.sunspotter.org
 twitter: https://twitter.com/sunspotter_org
 facebook: 
 tags: 
+    - heliophysics
+    - solar eruptions
     - sun
     - sunspots
-    - heliophysics
-    - soho
-    - solar eruptions
+    - zooniverse
 
 caption: >
     (image by SST, Royal Swedish Academy of Sciences)

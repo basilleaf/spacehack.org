@@ -10,11 +10,9 @@ facebook:
 tags: 
     - gravitational waves
     - ligo
-    - einstein
-    - pulsars
     - neutron stars
-    - arecibo
-    - fermi
+    - pulsars
+    - spacetime
 
 caption: >
     (image by NASA/CXC/SAO/F.Seward et al)
