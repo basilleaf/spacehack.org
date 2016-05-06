@@ -55,6 +55,21 @@ a:hover {
 * 
 **/
 
+.about {
+  position:fixed;
+  top:0;
+  right:0;
+  padding: 15px 25px;
+}
+.about a {
+  /* matches tagline */
+  color: #7d7b80;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  text-align: center;
+  font-weight: 300;
+}
+
 .header {
   position:relative;
   top:-200px;
