@@ -55,49 +55,30 @@ a:hover {
 * 
 **/
 
-/* via http://jsfiddle.net/qB4Z2/ */
-/* nav header */
-/* todo: rename these */
-#sticky-anchor {
-  position: absolute;
-  top: 50px; /* same-ish as #sticky top */
+.header {
+  position:relative;
+  top:-200px;
   left:0;
-}
-
-#sticky { 
-  position: relative;
-  top: 50px;
-  left:0;
-  margin:0; padding:0;
-  padding-bottom:20px;
-  text-align: center;
-  background-color: black;
-  width:100%;
-  border:0;
-  z-index: 10000;
-}
-
-#sticky.stick {
-  position: fixed;
-  top: 0;
-  margin:0; padding:0;
-  border:0;
-  padding-bottom:20px;
+  z-index: 1000;
 }
 
 /* site title */
 .site_name {
-  padding: 0; margin:0;
+  margin:auto;
+  margin-bottom:10px;
+  padding:0;
   padding-top:10px;
-  transform: scaleY(1.1);
+  padding-bottom:5px;
+  width:6em;
   font-family: orator-std ,sans-serif;
+  transform: scaleY(1.1);
   font-style: normal;
   font-size: 1.7em;
-  color: #f7eedf;
   text-transform: uppercase;
+  text-align: center;
+  color: #f7eedf;
   letter-spacing: 1px;
   font-weight: 300;
-  padding-bottom: 10px;
   /* underline */
   border-bottom: 2px solid #f7eedf;
 }
@@ -117,6 +98,107 @@ a:hover {
 
 
 /**
+ * 
+ * Homepage
+ * 
+ **/
+
+ /* homepage top banner hero unit image */
+
+
+.hero-image { /* big hero astronaut image */
+  background-image: url('/assets/img/lunarlandscape2.jpg');
+  background-size:cover;
+  background-position: center center;
+  background-color: black;
+  height: 230px;
+}
+
+.tagline  {
+  width:100%;
+  margin:0; padding:0;
+  margin-top:-30px;
+  text-align: center;
+}
+
+.tagline h2 {
+  color: #7d7b80;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  text-align: center;
+  font-weight: 300;
+}
+
+/* homepage project list */
+.project-grid {
+  padding: 10px 25px;
+  margin: 0 auto;
+  margin-top:25px;
+}
+
+.project {
+  border:0;
+  margin:0; padding:0;
+  padding: 0 10px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.project .circle {
+  position: absolute;
+  top: 17%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 20px;
+  width: 65%;
+  height: 70%;
+  border-radius: 50%; 
+  text-align: center;
+  background: black;
+  color: #f7eedf;
+  background-color: #191621;
+  text-transform: uppercase;
+}
+
+.project .circle .cat {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 26%;
+  width: 100%;
+  padding:0 20px;
+  font-size: 1.2em;
+  font-family: orator-std ,sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.project .circle h2 { /* project title */
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 58%;
+  width: 100%;
+  padding:0 20px;
+  color: #f7eedf;
+  font-size: 1.2em;
+  font-family: orator-std ,sans-serif;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.project-underline {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  margin: 0 auto;
+  color: #f7eedf;
+  width: 50%;
+  border-bottom: 2px solid #f7eedf;
+}
+
+
+/**
  * Posts aka projects
  */
 
@@ -129,7 +211,7 @@ a:hover {
 }
 
 .project_banner img {
-  padding-top:60px;
+  padding-top:0px;
   flex-shrink: 0;
   width: 100%;
   height: auto;
@@ -243,109 +325,6 @@ ul.tags li {
 .nobanner {
   height:100px;
 }
-
-
-/**
- * 
- * Homepage
- * 
- **/
-
- /* homepage top banner hero unit image */
-.hero-image { /* big hero astronaut image */
-  background-image: url('/assets/img/lunarlandscape2.jpg');
-  background-size:cover;
-  background-position: center center;
-  background-color: black;
-  height: 230px;
-}
-.top_margin_adjust {
-    margin-top:-51px;
-}
-
-
-.tagline  {
-  width:100%;
-  margin:0; padding:0;
-  margin-top: 50px;
-  text-align: center;
-}
-
-.tagline h2 {
-  color: #7d7b80;
-  text-transform: uppercase;
-  font-size: 1.2em;
-  text-align: center;
-  font-weight: 300;
-}
-
-/* homepage project list */
-.project-grid {
-  padding: 50px 25px;
-  margin: 0 auto;
-}
-
-.project {
-  border:0;
-  margin:0; padding:0;
-  padding: 0 10px;
-  position: relative;
-  margin-bottom: 20px;
-}
-
-.project .circle {
-  position: absolute;
-  top: 17%;
-  left: 0;
-  right: 0;
-  margin: auto;
-  padding: 20px;
-  width: 65%;
-  height: 70%;
-  border-radius: 50%; 
-  text-align: center;
-  background: black;
-  color: #f7eedf;
-  background-color: #191621;
-  text-transform: uppercase;
-}
-
-.project .circle .cat {
-  text-align: center;
-  position: absolute;
-  left: 0;
-  top: 26%;
-  width: 100%;
-  padding:0 20px;
-  font-size: 1.2em;
-  font-family: orator-std ,sans-serif;
-  font-weight: 300;
-  letter-spacing: 1px;
-}
-.project .circle h2 { /* project title */
-  text-align: center;
-  position: absolute;
-  left: 0;
-  top: 58%;
-  width: 100%;
-  padding:0 20px;
-  color: #f7eedf;
-  font-size: 1.2em;
-  font-family: orator-std ,sans-serif;
-  font-weight: 300;
-  letter-spacing: 2px;
-}
-
-.project-underline {
-  position: absolute;
-  top: 50%;
-  left: 25%;
-  margin: 0 auto;
-  color: #f7eedf;
-  width: 50%;
-  border-bottom: 2px solid #f7eedf;
-}
-
 
 
 
