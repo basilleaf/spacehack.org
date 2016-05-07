@@ -12,11 +12,15 @@ $(function() {
       preFixed: function() { 
 
         $('.tagline').css('margin-top', '-10px'); 
+        $(this).css('background-color', 'black'); 
 
+        /*
+        if you want to animate the change of header from transparent to black:
         $(this).animate({
           backgroundColor: "black",
           background: "black",
         }, 300);
+        */
 
       }
   });
