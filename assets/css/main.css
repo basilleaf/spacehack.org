@@ -151,15 +151,18 @@ a:hover {
   margin-top:25px;
 }
 
-.project {
-  border:0;
-  margin:0; padding:0;
-  padding: 0 10px;
-  position: relative;
-  margin-bottom: 20px;
+.project-box {
+  border:  10px solid #191621; /* matchs body background color */
+}
+@media (max-width: 480px) {
+  .project-box {
+    border:0;
+    border-bottom: 10px solid #191621; /* matchs body background color */
+  }
 }
 
-.project .circle {
+
+.project-box .circle {
   position: absolute;
   top: 17%;
   left: 0;
@@ -169,26 +172,29 @@ a:hover {
   width: 65%;
   height: 70%;
   border-radius: 50%; 
+
   text-align: center;
-  background: black;
-  color: #f7eedf;
-  background-color: #191621;
   text-transform: uppercase;
+  color: #f7eedf;
+
+  background: black;
+  background-color: #191621;
 }
 
-.project .circle .cat {
+.project-box .circle .cat {
   text-align: center;
   position: absolute;
   left: 0;
   top: 26%;
   width: 100%;
   padding:0 20px;
-  font-size: 1.2em;
+  font-size: 2.2em;
   font-family: orator-std ,sans-serif;
   font-weight: 300;
   letter-spacing: 1px;
 }
-.project .circle h2 { /* project title */
+.project-box .circle h2 { /* project title */
+  background: transparent;
   text-align: center;
   position: absolute;
   left: 0;
@@ -196,7 +202,7 @@ a:hover {
   width: 100%;
   padding:0 20px;
   color: #f7eedf;
-  font-size: 1.2em;
+  font-size: 2.2em;
   font-family: orator-std ,sans-serif;
   font-weight: 300;
   letter-spacing: 2px;
@@ -366,11 +372,6 @@ ul.tags li {
 .post-meta {
   font-size: 14px;
   color: #828282;
-}
-
-.post-link {
-  display: block;
-  font-size: 24px;
 }
 
 

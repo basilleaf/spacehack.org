@@ -37,6 +37,53 @@
   </script>
 
 
+  <style>
+  /* for css background image height is set via padding-bottom 
+  via http://stackoverflow.com/questions/25347987/how-to-cover-background-images-in-bootstrap-3-grids 
+  */
+  {% for post in site.posts %}
+    .{{ post.title | slugify }} {
+      background: url(/assets/img/med/{{ post.thumbnail }}) 30% 30% no-repeat; 
+      background-size: cover;
+      padding-bottom: 30%;
+    }
+    /* @media(max-width: 480px) { */
+    @media(max-width: 767px) {
+      .{{ post.title | slugify }}  {
+        background: url(/assets/img/med/{{ post.thumbnail }}) 100% 100% no-repeat; 
+        background-size: cover;
+        padding-bottom: 100%;
+      }
+    }
+    /* low rez small devices */
+    @media(max-width: 415px) and ((-webkit-max-device-pixel-ratio: 1.25), (max-resolution: 120dpi)){  
+      .{{ post.title | slugify }}  {
+        background: url(/assets/img/xsmall/{{ post.thumbnail }}) 100% 100% no-repeat; 
+        background-size: cover;
+        padding-bottom: 100%;
+      }
+    }    
+    /* high rez small devices */
+    @media(max-width: 440px) and ((-webkit-min-device-pixel-ratio: 1.26), (min-resolution: 120dpi)) {  
+      .{{ post.title | slugify }}  {
+        background: url(/assets/img/small/{{ post.thumbnail }}) 100% 100% no-repeat; 
+        background-size: cover;
+        padding-bottom: 100%;
+      }
+    }      
+    /* @media(max-width: 480px) { */
+    @media(min-width: 1440px) {
+      .{{ post.title | slugify }}  {
+        background: url(/assets/img/large/{{ post.thumbnail }}) 30% 30% no-repeat; 
+        background-size: cover;
+        padding-bottom: 30%;
+      }
+    }
+
+  {% endfor %}
+  </style>
+
+
   <!-- favicons -->
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png?v=lkkBpX64xj">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png?v=lkkBpX64xj">

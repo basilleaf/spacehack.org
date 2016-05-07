@@ -30,7 +30,7 @@ var sh = {
     if ($('.project-grid').length) {
       // do any of our homepage grid project titles need smaller font? 
       var min_length = 18;  // if title larger than this then shrink its font
-      var new_font_size = "1.0em"; 
+      var new_font_size = "1.8em"; 
       for (var k in site_posts) {  /* found in head.html */
         title_slug = site_posts[k]['title_slug'];
         if (title_slug.length > min_length) {
