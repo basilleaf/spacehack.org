@@ -154,11 +154,6 @@ a:hover {
 .project-box {
   border:  10px solid #191621; /* matchs body background color */
   cursor: pointer;
-  padding-bottom: 100%;
-  background-size: cover;
-  background-repeat: no-repeat; 
-  background-position: 30% 30%;
-
 }
 @media (max-width: 480px) {
   .project-box {
