@@ -1,7 +1,13 @@
 $(function() {
 
-  sh.adjust_grid_fonts();
+  sh.adjust_grid_fonts(); // adjusts font for project titles that are too big for their circles
 
+  // makes entire grid box clickable (sans js only circle is clickable)
+  $('.project-box').click(function() {
+    window.location.href = $(this).find('a').attr('href');
+  });
+
+  // fix the header to the top when it scrolls there
   $('.header').scrollToFixed({
       postFixed: function() { 
 
