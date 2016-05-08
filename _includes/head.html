@@ -39,41 +39,35 @@
 
 
     <style>
-    /* for css background image height is set via padding-bottom 
-    via http://stackoverflow.com/questions/25347987/how-to-cover-background-images-in-bootstrap-3-grids 
-    */
+
     {% for post in site.posts %}
+
       .{{ post.title | slugify }} {
-        background: url(/assets/img/med/{{ post.thumbnail }}) 30% 30% no-repeat; 
-        background-size: cover;
+        background-image: url(/assets/img/med/{{ post.thumbnail }});
+        background-position: 30% 30%;
         padding-bottom: 30%;
       }
       @media(max-width: 767px) {
         .{{ post.title | slugify }}  {
-          background: url(/assets/img/med/{{ post.thumbnail }}) 100% 100% no-repeat; 
-          background-size: cover;
-          padding-bottom: 100%;
+          background-image: url(/assets/img/med/{{ post.thumbnail }});
+          padding-bottom: 100%
         }
       }
-      @media(max-width: 415px) and ((-webkit-max-device-pixel-ratio: 1.25), (max-resolution: 120dpi)){  
+      @media(max-width: 440px) and ((-webkit-max-device-pixel-ratio: 1.25), (max-resolution: 120dpi)){  
         .{{ post.title | slugify }}  {
-          background: url(/assets/img/xsmall/{{ post.thumbnail }}) 100% 100% no-repeat; 
-          background-size: cover;
-          padding-bottom: 100%;
+          background-image: url(/assets/img/xsmall/{{ post.thumbnail }});
         }
       }    
-      @media(max-width: 440px) and ((-webkit-min-device-pixel-ratio: 1.26), (min-resolution: 120dpi)) {  
+      @media(max-width: 440px) and ((-webkit-min-device-pixel-ratio: 1.26), (min-resolution: 120dpi)){  
         .{{ post.title | slugify }}  {
-          background: url(/assets/img/small/{{ post.thumbnail }}) 100% 100% no-repeat; 
-          background-size: cover;
-          padding-bottom: 100%;
+          background-image: url(/assets/img/small/{{ post.thumbnail }});
         }
       }      
       @media(min-width: 1440px) {
         .{{ post.title | slugify }}  {
-          background: url(/assets/img/large/{{ post.thumbnail }}) 30% 30% no-repeat; 
-          background-size: cover;
-          padding-bottom: 30%;
+        background-image: url(/assets/img/large/{{ post.thumbnail }}); 
+        background-position: 30% 30%;
+        padding-bottom: 30%;
         }
       }
 

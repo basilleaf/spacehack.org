@@ -154,7 +154,23 @@ a:hover {
 .project-box {
   border:  10px solid #191621; /* matchs body background color */
   cursor: pointer;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  padding-bottom: 100%; /* for css background image height is set via padding-bottom 
+                        via http://stackoverflow.com/questions/25347987/how-to-cover-background-images-in-bootstrap-3-grids 
+                        */
 }
+@media(min-width: 1440px) {
+.project-box {
+  background-position: 30% 30%;
+  padding-bottom: 30%;
+  }
+}
+
+
+
 @media (max-width: 480px) {
   .project-box {
     border:0;
