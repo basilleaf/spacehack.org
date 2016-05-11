@@ -54,13 +54,14 @@ a:hover {
 * homepage site name
 * 
 **/
-
 .about {
   position:fixed;
   top:0;
   right:0;
   padding: 15px 25px;
+  z-index:;
 }
+
 .about a {
   /* matches tagline */
   color: #7d7b80;
@@ -71,10 +72,22 @@ a:hover {
 }
 
 .header {
-  position:relative;
-  top:-200px;
-  left:0;
-  z-index: 1000;
+  z-index: 10000;
+  margin-top:-200px;
+  padding-bottom:2px;
+}
+
+.black {
+  background-color: black;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  top: 0px;
 }
 
 /* site title */
@@ -117,10 +130,6 @@ a:hover {
  * Homepage
  * 
  **/
-
- /* homepage top banner hero unit image */
-
-
 .hero-image { /* big hero astronaut image */
   background-image: url('/assets/img/lunarlandscape4.jpg');
   background-size:cover;
@@ -132,7 +141,7 @@ a:hover {
 .tagline  {
   width:100%;
   margin:0; padding:0;
-  margin-top:-30px;
+  margin-top:200px;
   text-align: center;
 }
 
@@ -144,17 +153,16 @@ a:hover {
   font-weight: 300;
 }
 
-/* homepage project list */
 .project-grid {
   padding: 10px 25px;
   margin: 0 auto;
-  margin-top:25px;
+  margin-top:5
+  0px;
 }
 
 .project-box {
   border:  10px solid #191621; /* matchs body background color */
   cursor: pointer;
-
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 100% 100%;
@@ -162,6 +170,7 @@ a:hover {
                         via http://stackoverflow.com/questions/25347987/how-to-cover-background-images-in-bootstrap-3-grids 
                         */
 }
+
 @media(min-width: 1440px) {
 .project-box {
   background-position: 30% 30%;
@@ -169,15 +178,12 @@ a:hover {
   }
 }
 
-
-
 @media (max-width: 480px) {
   .project-box {
     border:0;
     border-bottom: 10px solid #191621; /* matchs body background color */
   }
 }
-
 
 .project-box .circle {
   position: absolute;
@@ -189,11 +195,9 @@ a:hover {
   width: 65%;
   height: 70%;
   border-radius: 50%; 
-
   text-align: center;
   text-transform: uppercase;
   color: #f7eedf;
-
   background: black;
   background-color: #191621;
 }
@@ -210,6 +214,7 @@ a:hover {
   font-weight: 300;
   letter-spacing: 1px;
 }
+
 .project-box .circle h2 { /* project title */
   background: transparent;
   text-align: center;
@@ -239,7 +244,6 @@ a:hover {
 /**
  * Posts aka projects
  */
-
 /* project banner (image is 4000 × 1200) */
 .project_banner {
   display: flex;
@@ -260,21 +264,25 @@ a:hover {
   color: #f7eedf;
   padding: 20px 30px 20px 120px;  
 }
+
 /* project title */
 .sidebar h1 {
   text-transform: uppercase;
   font-size: 3.3em;
   font-weight: 500;
 }
+
 /* project_links */
 ul.project_links, ul.tags {
   list-style-type: none;
   margin: 20px 0 10px 0;
 }
+
 ul.tags a {
   color:  #f7eedf;
   text-decoration: none;
 }
+
 ul.project_links, ul.project_links li {
   padding:0;
 }
@@ -331,21 +339,12 @@ ul.tags li {
   font-size: 2.1em;
   font-weight: 100;
   letter-spacing: 2px;
-
   margin-bottom: 30px;
   padding-top: 15px;
   padding-left: 0;
   padding-right: 40px;
   line-height: 1.7;
   /* letter-spacing: 0.3em */
-}
-@media (max-width: 768px) {
-  /*
-  .post-content { 
-    padding-left: 30px;
-  }
-  */
-
 }
 
 
@@ -356,14 +355,15 @@ ul.tags li {
   /* hide the image and its caption */
   display:none;
 }
+
 .scrape_from_old_wordpress {
   padding:0; margin:0;
   margin-top:-30px;
 }
+
 .nobanner {
   height:100px;
 }
-
 
 
 /**
@@ -396,12 +396,6 @@ ul.tags li {
  * Site footer
  */
 .site-footer {
-  display:none;
-  clear:both;
-  position: absolute;
-  bottom:0;
-  border-top: 1px solid #e8e8e8;
-  padding: 30px 0;
 }
 
 .footer-heading {
@@ -440,6 +434,7 @@ ul.tags li {
   width: -webkit-calc(45% - (30px / 2));
   width: calc(45% - (30px / 2));
 }
+
 @media screen and (max-width: 800px) {
   .footer-col-1,
   .footer-col-2 {
@@ -452,6 +447,7 @@ ul.tags li {
     width: calc(100% - (30px / 2));
   };
 }
+
 @media screen and (max-width: 600px) {
   .footer-col {
     float: none;
@@ -488,6 +484,7 @@ blockquote > :last-child {
   padding-right: 30px;
   padding-left: 30px;
 }
+
 @media screen and (max-width: 800px) {
   .wrapper {
     max-width: -webkit-calc(800px - (30px));

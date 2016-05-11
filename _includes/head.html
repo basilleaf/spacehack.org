@@ -24,7 +24,7 @@
     });
   </script>
 
-    {% capture posts_css %}
+{% capture projects_css %}
     <style>
     {% for post in site.posts %}
 
@@ -56,11 +56,10 @@
         padding-bottom: 30%;
         }
       }
-
     {% endfor %}
     </style>
     {% endcapture %}
-    {{ posts_css | strip_newlines }}
+{{ projects_css | strip_newlines}}
 
   <!-- favicons -->
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png?v=lkkBpX64xj">

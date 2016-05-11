@@ -11,6 +11,8 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 permalink: /:title/
+paginate: 6
 
 gems:
  - jekyll-redirect-from
+ - jekyll-paginate

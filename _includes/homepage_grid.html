@@ -1,0 +1,12 @@
+{% for post in paginator.posts %}
+
+  {% include grid_box.html %}
+
+{% endfor %}
+
+&nbsp; <!-- it's just gotta be here --> 
+
+{% if paginator.next_page_path contains 'page' %}
+  <a class = "next" href = "{{ paginator.next_page_path }}">Next</a>
+{% endif %}
+
