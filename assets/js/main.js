@@ -29,10 +29,7 @@ $(function() {
         postFixed: function() { 
           $('.tagline').css('margin-top', '200px'); 
           $(this).css('margin-top', '-200px'); 
-          //$(this).css('background-color', 'transparent'); 
-          $(this).animate({
-            backgroundColor: "transparent",
-          }, 300);
+          $(this).css('background-color', 'transparent'); 
           dontSetWidth: true;
           marginTop:0;
           },
