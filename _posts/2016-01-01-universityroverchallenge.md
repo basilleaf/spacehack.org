@@ -4,9 +4,9 @@ title:  University Rover Challenge
 category: Mars
 thumbnail: universityrover_square.jpg
 banner: universityrover_rectangle.jpg
-website: http://urc.marssociety.org/
+website: http://urc.marssociety.org
 twitter: https://twitter.com/URConMars
-facebook: https://www.facebook.com/universityroverchallenge/
+facebook: https://www.facebook.com/universityroverchallenge
 tags: 
     - challenge
     - international
