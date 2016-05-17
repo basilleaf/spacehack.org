@@ -264,7 +264,6 @@ a:hover {
 .sidebar {
   font-family: "brandon-grotesque",sans-serif;
   font-weight: 100;
-  color: #f7eedf;
   padding: 20px 30px 20px 100px;  
 }
 
@@ -289,6 +288,15 @@ ul.project_links li {
   padding-left:45px;
   padding-bottom: 5px;
 }
+
+ul.project_links li {
+
+  color: #77ccc9;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;  
+}
+
 ul.project_links li a:hover {
   color:  #1eaaab;
   text-decoration: none;
