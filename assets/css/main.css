@@ -9,8 +9,7 @@ dl, dd, ol, ul, figure {
 }
 
 @font-face {
-  font-family: 'Quicksand', sans-serif;
-
+  font-family: "brandon-grotesque",sans-serif;
 }
 body {
   /* we have 300 and 700 */
@@ -64,6 +63,7 @@ a:hover {
 
 .about a {
   /* matches tagline */
+  font-family: "brandon-grotesque",sans-serif;
   color: #7d7b80;
   text-transform: uppercase;
   font-size: 1.1em;
@@ -146,6 +146,7 @@ a:hover {
 }
 
 .tagline h2 {
+  font-family: "brandon-grotesque",sans-serif;
   color: #7d7b80;
   text-transform: uppercase;
   font-size: 1.2em;
@@ -261,71 +262,89 @@ a:hover {
 
 /* sidebar */
 .sidebar {
+  font-family: "brandon-grotesque",sans-serif;
+  font-weight: 100;
   color: #f7eedf;
-  padding: 20px 30px 20px 120px;  
+  padding: 20px 30px 20px 100px;  
 }
 
 /* project title */
 .sidebar h1 {
+  font-family: "brandon-grotesque",sans-serif;
   text-transform: uppercase;
   font-size: 3.3em;
-  font-weight: 500;
+  font-weight: 900;
 }
 
 /* project_links */
 ul.project_links, ul.tags {
   list-style-type: none;
-  margin: 20px 0 10px 0;
+  font-size: 2.3em;
+  margin: 30px 0 10px 0;
 }
 
+ul.project_links li {
+  text-transform: lowercase;
+  padding: 0; 
+  padding-left:45px;
+  padding-bottom: 5px;
+}
+ul.project_links li a:hover {
+  color:  #1eaaab;
+  text-decoration: none;
+}
+
+
+.twitter, .facebook, .link {
+  background-position: 0 15px;
+  background-repeat: no-repeat;
+}
+
+.link {
+  background-image: url("/assets/css/link.svg");
+  background-repeat: no-repeat;
+  background-size: 0.8em;
+  background-position: 5px 13px;
+}
+
+.twitter {
+  background-image: url("/assets/css/twitter.svg");
+  background-size: 1.0em;
+}
+
+.facebook {
+  background-image: url("/assets/css/facebook.svg");
+  background-size: 0.9em;
+  background-position: 5px 13px;
+}
+
+
+/* tags */
 ul.tags a {
   color:  #f7eedf;
   text-decoration: none;
 }
 
-ul.project_links, ul.project_links li {
-  padding:0;
+ul.tags {
+    margin-top:40px;
 }
-
-ul.project_links li {
-  padding: 0; 
-  font-size: 1.8em;
-  padding-left:40px;
-  padding-bottom: 20px;
-}
-
-.link {
-  background: url("/assets/css/link.svg") no-repeat;
-  background-size: 1.0em;
-}
-
-.twitter {
-  background: url("/assets/css/twitter.svg") no-repeat;
-  background-size: 1.2em;
-}
-
-.facebook {
-  background: url("/assets/css/facebook.svg") no-repeat;
-  background-size: 1.0em;
-}
-
-.twitter, .facebook, .link {
-  background-position: 0 5px;
-}
-
-/* tags */
 ul.tags li {
   display: inline-block;
-  padding: 3px 10px;
-  margin-right: 5px;
+  padding: 0 10px;
+  padding-bottom:5px;
+  margin-right: 2px;
   margin-top:10px;
   white-space: nowrap;
   text-transform: lowercase;
-  font-size: 1.8em;
   border: 1px solid #77ccc9;
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
+ul.tags li:hover {
+  background-color: #1eaaab;
+  border: 1px solid #1eaaab;
+}
+
 
 .small_underline {
   border-bottom: 3px solid #f7eedf;
@@ -335,18 +354,23 @@ ul.tags li {
 
 /* project post content section */
 .post-content {
+  font-family: "brandon-grotesque",sans-serif;
   color: #f7eedf;
-  font-size: 2.1em;
+  font-size: 2.3em;
   font-weight: 100;
-  letter-spacing: 2px;
   margin-bottom: 30px;
   padding-top: 15px;
-  padding-left: 0;
-  padding-right: 40px;
+  padding-left: 50px;
+  padding-right: 100px;
   line-height: 1.7;
   /* letter-spacing: 0.3em */
 }
-
+.image_credit {
+  text-align: right;
+  font-style: italic;
+  padding:30px;
+  font-size: .5em;
+}
 
 /**
  * generated previous pages scraped from old wordpress site;
