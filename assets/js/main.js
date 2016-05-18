@@ -2,6 +2,7 @@ $(function() {
 
   sh.adjust_grid_fonts(); // adjusts font for project titles that are too big for their circles
 
+
   // makes entire grid box clickable (sans js only circle is clickable)
   $('.project-box').click(function() {
     window.location.href = $(this).find('a').attr('href');
@@ -13,8 +14,10 @@ $(function() {
     padding:200,
     callback: function() {
       $('a.next').remove();  // it was getting confused
+        sh.adjust_grid_fonts();
     }
   });
+
 
   // handle the sticky header
   if(sh.isPositionSticky('.header')) {
@@ -27,14 +30,16 @@ $(function() {
     // init scrollToFixed plugin 
     $('.header').scrollToFixed({
         postFixed: function() { 
-          $('.tagline').css('margin-top', '200px'); 
+          // fires when header is released
+          $('.tagline').css('margin-top', '180px');
           $(this).css('margin-top', '-200px'); 
           $(this).css('background-color', 'transparent'); 
           dontSetWidth: true;
           marginTop:0;
           },
         preFixed: function() { 
-          $('.tagline').css('margin-top', '0'); 
+          // fires when header first becomes fixed
+          $('.tagline').css('margin-top', '-20px'); 
           $(this).css('margin-top', 0); 
           // $(this).css('background-color', 'black'); 
           $(this).animate({
@@ -89,16 +94,25 @@ var sh = {
     // font when displayed in homepage grid circles 
     if ($('.project-grid').length) {
       // do any of our homepage grid project titles need smaller font? 
-      var min_length = 18;  // if title larger than this then shrink its font
-      var new_font_size = "1.8em"; 
+      var needs_small = 23;  // if title larger than this then shrink its font
+      var small_font = "1.7em"; 
+
+      var needs_med = 17;  // if title larger than this then shrink its font
+      var med_font = "1.9em"; 
+
       for (var k in site_posts) {  /* found in head.html */
+        
         title_slug = site_posts[k]['title_slug'];
-        if (title_slug.length > min_length) {
+
+        if (title_slug.length > needs_small) {
             // this project title is too long, make it use smaller font 
-            $('.project .circle h2.' +  title_slug).css({"font-size": new_font_size});
+            $('.project-box .circle h2.' +  title_slug).css({"font-size": small_font});
+        } else if (title_slug.length > needs_med) {
+            // this project title is too long, make it use smaller font 
+            $('.project-box .circle h2.' +  title_slug).css({"font-size": med_font});
         }
-      }
-    }
-  },
+      } // for
+    } // if 
+  },// method
 
 }
