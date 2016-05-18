@@ -136,12 +136,14 @@ a:hover {
   background-position: center center;
   background-color: black;
   height: 230px;
+  padding-top:50px;
 }
 
 .tagline  {
   width:100%;
   margin:0; padding:0;
-  margin-top:200px;
+  margin-top:180px;
+  padding-bottom:20px;
   text-align: center;
 }
 
@@ -162,7 +164,19 @@ a:hover {
 }
 
 .project-box {
-  border:  10px solid #191621; /* matchs body background color */
+  margin:0; padding:0;
+  border: 10px solid #191621;
+}
+
+.project-box .dummy {
+  margin-top: 100%;
+}
+.project-box .box-content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   cursor: pointer;
   background-size: cover;
   background-repeat: no-repeat;
@@ -173,17 +187,10 @@ a:hover {
 }
 
 @media(min-width: 1440px) {
-.project-box {
-  background-position: 30% 30%;
-  padding-bottom: 30%;
-  }
-}
 
+}
 @media (max-width: 480px) {
-  .project-box {
-    border:0;
-    border-bottom: 10px solid #191621; /* matchs body background color */
-  }
+
 }
 
 .project-box .circle {
@@ -192,8 +199,8 @@ a:hover {
   left: 0;
   right: 0;
   margin: auto;
-  padding: 20px;
-  width: 65%;
+  padding: 30px;
+  width: 70%;
   height: 70%;
   border-radius: 50%; 
   text-align: center;
@@ -201,6 +208,7 @@ a:hover {
   color: #f7eedf;
   background: black;
   background-color: #191621;
+  overflow: hidden;
 }
 
 .project-box .circle .cat {
@@ -210,10 +218,10 @@ a:hover {
   top: 26%;
   width: 100%;
   padding:0 20px;
-  font-size: 2.2em;
+  font-size: 2.2em; 
   font-family: orator-std ,sans-serif;
   font-weight: 300;
-  letter-spacing: 1px;
+  white-space: nowrap;
 }
 
 .project-box .circle h2 { /* project title */
@@ -225,7 +233,7 @@ a:hover {
   width: 100%;
   padding:0 20px;
   color: #f7eedf;
-  font-size: 2.2em;
+  font-size: 2.2em; 
   font-family: orator-std ,sans-serif;
   font-weight: 300;
   letter-spacing: 2px;
