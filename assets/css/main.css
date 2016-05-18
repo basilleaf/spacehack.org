@@ -247,7 +247,7 @@ a:hover {
   /* Portrait tablet to landscape and desktop */
   @media (min-width: 768px) and (max-width: 979px) {
     .project-box .circle .cat, .project-box .circle h2  {
-      font-size: 1.5em;
+      font-size: 1.3em;
     }
   }
   /* Large desktop */
@@ -258,11 +258,41 @@ a:hover {
   }
   @media (min-width: 1900px) {
     .project-box .circle .cat, .project-box .circle h2  {
-      font-size: 4.2em;
+      font-size: 4.0em;
     }
   }
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .project-box .circle .cat, .project-box .circle h2  {
+      font-size: 2.0em;
+    }
+}
 
 
+
+.tablet_indicator, .large_indicator, .xl_indicator, .mobile_indicator{
+  display:none;
+}
+  @media (min-width: 768px) and (max-width: 979px) {
+    .tablet_indicator {
+      display: block;
+    }
+  }
+ @media (min-width: 1200px) and (max-width: 1899px) {
+    .large_indicator {
+      display: block;
+    }
+  } 
+ @media (min-width: 1900px) {
+     .xl_indicator {
+      display: block;
+    }
+  }
+  @media (max-width: 480px) {
+     .mobile_indicator {
+      display: block;
+    }
+  }
 
 
 .project-underline {

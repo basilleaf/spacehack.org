@@ -94,23 +94,64 @@ var sh = {
     // font when displayed in homepage grid circles 
     if ($('.project-grid').length) {
       // do any of our homepage grid project titles need smaller font? 
+
+      // todo: this needs different sizes based on screen size
+      // 
       var needs_small = 23;  // if title larger than this then shrink its font
       var small_font = "1.4em"; 
+      var small_font_mobile = "1.6em"
+      var small_font_tablet = "1.1em"
+      var small_font_lg_screen = "2.2em"  //////
+      var small_font_xl_screen = "3.0em" //////
 
       var needs_med = 17;  // if title larger than this then shrink its font
       var med_font = "1.7em"; 
+      var med_font_tablet = "1.3em"
+      var med_font_lg_screen = "2.2em"  //////
+      var med_font_xl_screen = "3.6em" //////
 
       for (var k in site_posts) {  /* found in head.html */
         
         title_slug = site_posts[k]['title_slug'];
 
         if (title_slug.length > needs_small) {
-            
             // this project title is too long, make it use smaller font 
+
+          if ($('.mobile_indicator').is(':visible')) { 
+            $('.project-box .circle h2.' +  title_slug).css({"font-size": small_font_mobile});
+
+          } else if ($('.tablet_indicator').is(':visible')) {
+            $('.project-box .circle h2.' +  title_slug).css({"font-size": small_font_tablet});
+          } 
+
+          else if ($('.xl_indicator').is(':visible')) {
+            $('.project-box .circle h2.' +  title_slug).css({"font-size": small_font_xl_screen});
+          }
+
+          else if ($('.large_indicator').is(':visible')) {
+            $('.project-box .circle h2.' +  title_slug).css({"font-size": small_font_lg_screen});
+
+          } else {
             $('.project-box .circle h2.' +  title_slug).css({"font-size": small_font});
+          }
+
         } else if (title_slug.length > needs_med) {
             // this project title is too long, make it use smaller font 
+
+          if ($('.mobile_indicator').is(':visible')) { 
+            continue;
+          }
+          else if ($('.tablet_indicator').is(':visible')) {
+            $('.project-box .circle h2.' +  title_slug).css({"font-size": med_font_tablet});
+          } 
+          else if ($('.xl_indicator').is(':visible')) {
+            $('.project-box .circle h2.' +  title_slug).css({"font-size": med_font_xl_screen});
+          }
+          else if ($('.large_indicator').is(':visible')) {
+            $('.project-box .circle h2.' +  title_slug).css({"font-size": med_font_lg_screen});
+          } else {
             $('.project-box .circle h2.' +  title_slug).css({"font-size": med_font});
+          }
         }
 
       } // for
