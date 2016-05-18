@@ -95,22 +95,24 @@ var sh = {
     if ($('.project-grid').length) {
       // do any of our homepage grid project titles need smaller font? 
       var needs_small = 23;  // if title larger than this then shrink its font
-      var small_font = "1.7em"; 
+      var small_font = "1.4em"; 
 
       var needs_med = 17;  // if title larger than this then shrink its font
-      var med_font = "1.9em"; 
+      var med_font = "1.7em"; 
 
       for (var k in site_posts) {  /* found in head.html */
         
         title_slug = site_posts[k]['title_slug'];
 
         if (title_slug.length > needs_small) {
+            
             // this project title is too long, make it use smaller font 
             $('.project-box .circle h2.' +  title_slug).css({"font-size": small_font});
         } else if (title_slug.length > needs_med) {
             // this project title is too long, make it use smaller font 
             $('.project-box .circle h2.' +  title_slug).css({"font-size": med_font});
         }
+
       } // for
     } // if 
   },// method

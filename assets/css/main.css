@@ -143,6 +143,7 @@ a:hover {
   width:100%;
   margin:0; padding:0;
   margin-top:180px;
+  padding: 0 20px;
   padding-bottom:20px;
   text-align: center;
 }
@@ -159,8 +160,12 @@ a:hover {
 .project-grid {
   padding: 10px 25px;
   margin: 0 auto;
-  margin-top:5
-  0px;
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .project-grid {
+    padding: 10px 0px;
+  }
 }
 
 .project-box {
@@ -168,7 +173,8 @@ a:hover {
   border: 10px solid #191621;
 }
 
-.project-box .dummy {
+.project-box .dummy { 
+  /* via http://www.bootply.com/99278 */
   margin-top: 100%;
 }
 .project-box .box-content {
@@ -205,7 +211,6 @@ a:hover {
   border-radius: 50%; 
   text-align: center;
   text-transform: uppercase;
-  color: #f7eedf;
   background: black;
   background-color: #191621;
   overflow: hidden;
@@ -218,12 +223,13 @@ a:hover {
   top: 26%;
   width: 100%;
   padding:0 20px;
+  white-space: nowrap;
+
+  color: #f7eedf;
   font-size: 2.2em; 
   font-family: orator-std ,sans-serif;
   font-weight: 300;
-  white-space: nowrap;
 }
-
 .project-box .circle h2 { /* project title */
   background: transparent;
   text-align: center;
@@ -232,12 +238,32 @@ a:hover {
   top: 58%;
   width: 100%;
   padding:0 20px;
+
   color: #f7eedf;
   font-size: 2.2em; 
   font-family: orator-std ,sans-serif;
   font-weight: 300;
-  letter-spacing: 2px;
 }
+  /* Portrait tablet to landscape and desktop */
+  @media (min-width: 768px) and (max-width: 979px) {
+    .project-box .circle .cat, .project-box .circle h2  {
+      font-size: 1.5em;
+    }
+  }
+  /* Large desktop */
+  @media (min-width: 1200px) {
+    .project-box .circle .cat, .project-box .circle h2  {
+      font-size: 2.6em;
+    }
+  }
+  @media (min-width: 1900px) {
+    .project-box .circle .cat, .project-box .circle h2  {
+      font-size: 4.2em;
+    }
+  }
+
+
+
 
 .project-underline {
   position: absolute;
