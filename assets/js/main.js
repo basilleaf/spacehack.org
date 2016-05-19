@@ -24,8 +24,10 @@ $(function() {
   if(sh.isPositionSticky('.header')) {
     // we can just use css position sticky yay!: just need to handle
     // extra styling on the header when it is fixed
-    if (!$('.project_banner').is(':visible')) {
+    if ($('.project-grid').is(':visible')) {
+      
       window.setInterval(function() { sh.fixedHeaderstyle(); }, 200);
+
     } else {
 
       $('header').addClass('black');
