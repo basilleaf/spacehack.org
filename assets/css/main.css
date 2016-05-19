@@ -77,7 +77,7 @@ a:hover {
 }
   @media (max-width: 979px) {
     .about a {
-        color: #cbcacc;
+        color: #e5e4e5;
     }
   }
 
@@ -152,7 +152,7 @@ a:hover {
 .tagline  {
   width:100%;
   margin:0; padding:0;
-  margin-top:180px;
+  margin-top:170px;
   padding: 0 20px;
   padding-bottom:20px;
   text-align: center;
