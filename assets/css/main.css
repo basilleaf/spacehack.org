@@ -613,10 +613,12 @@ ul.tags li:hover {
   padding: 0 5%;
   margin: 20px 0;
 }
-.about-page .row {
-  padding-bottom:30px;
+.about-page .bio {
+  font-size: .8em;
 }
-
+.about-page .row {
+  padding-bottom:40px;
+}
 
 /**
  * Blockquotes
