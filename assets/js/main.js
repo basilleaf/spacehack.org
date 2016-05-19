@@ -1,6 +1,7 @@
 $(function() {
 
-  sh.adjust_grid_fonts(); // adjusts font for project titles that are too big for their circles
+  // adjusts font for project titles that are too big for their circles
+  sh.adjust_grid_fonts(); 
 
 
   // makes entire grid box clickable (sans js only circle is clickable)
@@ -8,13 +9,13 @@ $(function() {
     window.location.href = $(this).find('a').attr('href');
   });
 
-  // infinite scroll style lazy loading on homepage 
+  // infinite scroll lazy loading on homepage 
   $('.project-grid').jscroll({
     nextSelector: 'a.next:last',
     padding:200,
     callback: function() {
       $('a.next').remove();  // it was getting confused
-        sh.adjust_grid_fonts();
+        sh.adjust_grid_fonts(); // adjusts newly loaded project titles that are too big for their circles
     }
   });
 
@@ -23,7 +24,11 @@ $(function() {
   if(sh.isPositionSticky('.header')) {
     // we can just use css position sticky yay!: just need to handle
     // extra styling on the header when it is fixed
-    window.setInterval(function() { sh.fixedHeaderstyle(); }, 200);
+    if (!$('.project_banner').is(':visible')) {
+      window.setInterval(function() { sh.fixedHeaderstyle(); }, 200);
+    } else {
+      $('header').addClass('black');
+    }
 
   } else {
     // this browser does not suppoer position sticky, 
