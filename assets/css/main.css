@@ -582,11 +582,11 @@ ul.tags li:hover {
 .site-footer {
   font-family: "brandon-grotesque",sans-serif;
   color: #7d7b80;
-  text-align: center;
+  text-align: right;
   font-size:1.1em;
   width: 100%;
   margin-top:25px;
-  padding:15px 20px;
+  padding:15px 50px;
   background-color: black;
   text-transform: uppercase;
 }
