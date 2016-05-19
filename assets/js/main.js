@@ -5,7 +5,7 @@ $(function() {
 
 
   // makes entire grid box clickable (sans js only circle is clickable)
-  $('.box-content').click(function() {
+  $('.project-grid').on("click", '.box-content', function() {
     window.location.href = $(this).find('a').attr('href');
   });
 
