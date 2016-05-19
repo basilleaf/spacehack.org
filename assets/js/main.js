@@ -27,7 +27,9 @@ $(function() {
     if (!$('.project_banner').is(':visible')) {
       window.setInterval(function() { sh.fixedHeaderstyle(); }, 200);
     } else {
+
       $('header').addClass('black');
+      $('header').css('marginTop', 0);
     }
 
   } else {

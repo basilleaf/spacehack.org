@@ -307,22 +307,33 @@ a:hover {
 
 
 /**
- * Posts aka projects
+ * Posts aka project page
  */
-/* project banner (image is 4000 × 1200) */
+/* project banner (full image is 4000 × 1200) */
 .project_banner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
+  margin-top:0;
+}
+/* Large desktop */
+@media (min-width: 1200px) {
+  .project_banner {
+  }
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  ...;
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  ...;
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  ...;
 }
 
-.project_banner img {
-  padding-top:0px;
-  flex-shrink: 0;
-  width: 100%;
-  height: auto;
-}
+
 
 /* sidebar */
 .sidebar {
