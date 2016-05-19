@@ -12,10 +12,11 @@ $(function() {
   // infinite scroll lazy loading on homepage 
   $('.project-grid').jscroll({
     nextSelector: 'a.next:last',
-    padding:200,
+    padding:250,
+    loadingHtml:'',
     callback: function() {
       $('a.next').remove();  // it was getting confused
-        sh.adjust_grid_fonts(); // adjusts newly loaded project titles that are too big for their circles
+      sh.adjust_grid_fonts(); // adjusts newly loaded project titles that are too big for their circles
     }
   });
 
