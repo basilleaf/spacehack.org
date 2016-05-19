@@ -1,15 +1,22 @@
 ---
 layout: default
 ---
-<h2 class="post_title">{.{page.title}}</h2>
-<ul>
-  {% for post in site.posts %}
-  {% for tag in post.tags %}
-  {% if tag == page.tag %}
+{% include header.html %}
 
-    {% include grid_box.html %}
+<div class="tag-page project-grid row">
 
-  {% endif %}
-  {% endfor %}
-  {% endfor %}
-</ul>
+    <div class = "heading"><h1>{{page.tag}}</h1></div>
+    
+    <ul>
+      {% for post in site.posts %}
+      {% for tag in post.tags %}
+      {% if tag == page.tag %}
+
+        {% include grid_box.html %}
+
+      {% endif %}
+      {% endfor %}
+      {% endfor %}
+    </ul>
+
+</div>

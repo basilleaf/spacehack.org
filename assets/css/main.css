@@ -433,7 +433,6 @@ ul.project_links li {
 }
 
 ul.project_links li {
-
   color: #77ccc9;
   white-space: nowrap;
   overflow: hidden;
@@ -556,6 +555,28 @@ ul.tags li:hover {
 
 
 /**
+ * Tag page
+ */
+ .tag-page .heading {
+  /* match the ul.tags li */
+  text-align: center;
+  margin:20px auto;
+ }
+ .tag-page .heading h1 {
+  font-weight: 300;
+  font-size: 2.1em;
+  color:  #f7eedf;
+  white-space: nowrap;
+  display:inline-block;
+  padding: 0 10px 5px 10px;
+  text-transform: lowercase;
+  border: 1px solid #77ccc9;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+
+/**
  * Site footer
  */
 .site-footer {
@@ -568,9 +589,6 @@ ul.tags li:hover {
   padding:15px 20px;
   background-color: black;
   text-transform: uppercase;
-}
-.site-footer ul li{
-  display: inline;
 }
 .site-footer a {
   color: #7d7b80;
