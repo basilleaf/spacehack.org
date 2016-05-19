@@ -76,6 +76,11 @@ a:hover {
   text-align: center;
   font-weight: 300;
 }
+  @media (max-width: 979px) {
+    .about a {
+        color: #cbcacc;
+    }
+  }
 
 .header {
   z-index: 10000;
@@ -162,6 +167,12 @@ a:hover {
   text-align: center;
   font-weight: 300;
 }
+  @media (max-width: 979px) {
+  .tagline h2 {
+        color: #cbcacc;
+    }
+  }
+
 
 .project-grid {
   padding: 10px 25px;
@@ -594,7 +605,6 @@ ul.tags li:hover {
  */
 .site-footer {
   font-family: "brandon-grotesque",sans-serif;
-  color: #7d7b80;
   text-align: right;
   font-size:1.1em;
   width: 100%;
@@ -606,6 +616,12 @@ ul.tags li:hover {
 .site-footer a {
   color: #7d7b80;
 }
+  @media (max-width: 979px) {
+  .site-footer a {
+        color: #cbcacc;
+    }
+  }
+
 
 
 /** 
