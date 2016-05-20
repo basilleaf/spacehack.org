@@ -22,9 +22,7 @@ $(function() {
   // handle the scroll-to-stick header behavior
   sh.scrollToStickHeader();
 
-
 }); // on page load 
-
 
 
 var sh = {
@@ -68,11 +66,11 @@ var sh = {
       // we can just use css position sticky yay!: just need to handle
       // extra styling on the header when it is fixed
       if ($('.project-grid').is(':visible')) {
-        
+        // we are on the homepage
         window.setInterval(function() { sh.fixedHeaderstyle(); }, 100);
 
       } else {
-
+        // this is not the hompeage, make the header stick to top 
         $('header').addClass('black');
         $('header').css('marginTop', 0);
       }
