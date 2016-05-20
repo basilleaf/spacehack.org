@@ -65,8 +65,9 @@ var sh = {
     if(sh.isPositionSticky('.header')) {
       // we can just use css position sticky yay!: just need to handle
       // extra styling on the header when it is fixed
-      if ($('.project-grid').is(':visible')) {
+      if ($('.tagline').is(':visible')) {
         // we are on the homepage
+        
         window.setInterval(function() { sh.fixedHeaderstyle(); }, 100);
 
       } else {
