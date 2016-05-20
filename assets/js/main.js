@@ -3,7 +3,6 @@ $(function() {
   // adjusts font for project titles that are too big for their circles
   sh.adjust_grid_fonts(); 
 
-
   // makes entire grid box clickable (sans js only circle is clickable)
   $('.project-grid').on("click", '.box-content', function() {
     window.location.href = $(this).find('a').attr('href');
@@ -27,7 +26,7 @@ $(function() {
     // extra styling on the header when it is fixed
     if ($('.project-grid').is(':visible')) {
       
-      window.setInterval(function() { sh.fixedHeaderstyle(); }, 200);
+      window.setInterval(function() { sh.fixedHeaderstyle(); }, 100);
 
     } else {
 
