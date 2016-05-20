@@ -1,7 +1,7 @@
 $(function() {
 
   // adjusts font for project titles that are too big for their circles
-  sh.adjust_grid_fonts(); 
+  sh.adjustGridfonts(); 
 
   // makes entire grid box clickable (sans js only circle is clickable)
   $('.project-grid').on("click", '.box-content', function() {
@@ -15,50 +15,14 @@ $(function() {
     loadingHtml:'',
     callback: function() {
       $('a.next').remove();  // it was getting confused
-      sh.adjust_grid_fonts(); // adjusts newly loaded project titles that are too big for their circles
+      sh.adjustGridfonts(); // adjusts newly loaded project titles that are too big for their circles
     }
   });
 
+  // handle the scroll-to-stick header behavior
+  sh.scrollToStickHeader();
 
-  // handle the sticky header
-  if(sh.isPositionSticky('.header')) {
-    // we can just use css position sticky yay!: just need to handle
-    // extra styling on the header when it is fixed
-    if ($('.project-grid').is(':visible')) {
-      
-      window.setInterval(function() { sh.fixedHeaderstyle(); }, 100);
 
-    } else {
-
-      $('header').addClass('black');
-      $('header').css('marginTop', 0);
-    }
-
-  } else {
-    // this browser does not suppoer position sticky, 
-    // init scrollToFixed plugin 
-    $('.header').scrollToFixed({
-        postFixed: function() { 
-          // fires when header is released
-          $('.tagline').css('margin-top', '180px');
-          $(this).css('margin-top', '-200px'); 
-          $(this).css('background-color', 'transparent'); 
-          dontSetWidth: true;
-          marginTop:0;
-          },
-        preFixed: function() { 
-          // fires when header first becomes fixed
-          $('.tagline').css('margin-top', '-20px'); 
-          $(this).css('margin-top', 0); 
-          // $(this).css('background-color', 'black'); 
-          $(this).animate({
-            backgroundColor: "black",
-          }, 300);
-          dontSetWidth: true
-          marginTop:0;
-        },
-    }); // scrollToFixed init
-  } // end else position sticky 
 }); // on page load 
 
 
@@ -98,7 +62,49 @@ var sh = {
       }
   },
 
-  adjust_grid_fonts: function() {
+  scrollToStickHeader: function() {
+  
+    if(sh.isPositionSticky('.header')) {
+      // we can just use css position sticky yay!: just need to handle
+      // extra styling on the header when it is fixed
+      if ($('.project-grid').is(':visible')) {
+        
+        window.setInterval(function() { sh.fixedHeaderstyle(); }, 100);
+
+      } else {
+
+        $('header').addClass('black');
+        $('header').css('marginTop', 0);
+      }
+
+    } else {
+      // this browser does not suppoer position sticky, 
+      // init scrollToFixed plugin 
+      $('.header').scrollToFixed({
+          postFixed: function() { 
+            // fires when header is released
+            $('.tagline').css('margin-top', '180px');
+            $(this).css('margin-top', '-200px'); 
+            $(this).css('background-color', 'transparent'); 
+            dontSetWidth: true;
+            marginTop:0;
+            },
+          preFixed: function() { 
+            // fires when header first becomes fixed
+            $('.tagline').css('margin-top', '-20px'); 
+            $(this).css('margin-top', 0); 
+            // $(this).css('background-color', 'black'); 
+            $(this).animate({
+              backgroundColor: "black",
+            }, 300);
+            dontSetWidth: true
+            marginTop:0;
+          },
+      }); // scrollToFixed init
+    } // end else position sticky 
+  },
+
+  adjustGridfonts: function() {
     // some projects have long titles and need a bit smaller
     // font when displayed in homepage grid circles 
     if ($('.project-grid').length) {
