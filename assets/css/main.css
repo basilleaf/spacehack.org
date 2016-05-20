@@ -11,6 +11,7 @@ dl, dd, ol, ul, figure {
 @font-face {
   font-family: "brandon-grotesque",sans-serif;
 }
+
 body {
   /* we have 300 and 700 */
   font-weight: 300;
@@ -29,6 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 .hidden { 
   text-indent: -5000px;
 }
+
 
 /**
  * Links
@@ -50,9 +52,11 @@ a:hover {
 .wf-loading {
   visibility: hidden;
 }
+
 .wf-active {
   visibility: visible;
 }
+
 
 /** 
 * 
@@ -75,11 +79,11 @@ a:hover {
   text-align: center;
   font-weight: 400;
 }
-  @media (max-width: 979px) {
-    .about a {
-        color: #e5e4e5;
-    }
+@media (max-width: 979px) {
+  .about a {
+      color: #e5e4e5;
   }
+}
 
 .header {
   z-index: 10000;
@@ -166,12 +170,11 @@ a:hover {
   text-align: center;
   font-weight: 300;
 }
-  @media (max-width: 979px) {
-  .tagline h2 {
-        color: #cbcacc;
-    }
+@media (max-width: 979px) {
+.tagline h2 {
+      color: #cbcacc;
   }
-
+}
 
 .project-grid {
   padding: 10px 25px;
@@ -193,6 +196,7 @@ a:hover {
   /* via http://www.bootply.com/99278 */
   margin-top: 100%;
 }
+
 .project-box .box-content {
   position: absolute;
   top: 0;
@@ -206,13 +210,6 @@ a:hover {
   padding-bottom: 100%; /* for css background image height is set via padding-bottom 
                         via http://stackoverflow.com/questions/25347987/how-to-cover-background-images-in-bootstrap-3-grids 
                         */
-}
-
-@media(min-width: 1440px) {
-
-}
-@media (max-width: 480px) {
-
 }
 
 .project-box .circle {
@@ -246,6 +243,7 @@ a:hover {
   font-family: orator-std ,sans-serif;
   font-weight: 300;
 }
+
 .project-box .circle h2 { /* project title */
   background: transparent;
   text-align: center;
@@ -254,62 +252,58 @@ a:hover {
   top: 58%;
   width: 100%;
   padding:0 20px;
-
   color: #f7eedf;
   font-size: 2.2em; 
   font-family: orator-std ,sans-serif;
   font-weight: 300;
 }
-  /* Portrait tablet to landscape and desktop */
-  @media (min-width: 768px) and (max-width: 979px) {
-    .project-box .circle .cat, .project-box .circle h2  {
-      font-size: 1.3em;
-    }
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  .project-box .circle .cat, .project-box .circle h2  {
+    font-size: 1.3em;
   }
-  /* Large desktop */
-  @media (min-width: 1200px) {
-    .project-box .circle .cat, .project-box .circle h2  {
-      font-size: 2.6em;
-    }
+}
+/* Large desktop */
+@media (min-width: 1200px) {
+  .project-box .circle .cat, .project-box .circle h2  {
+    font-size: 2.6em;
   }
-  @media (min-width: 1900px) {
-    .project-box .circle .cat, .project-box .circle h2  {
-      font-size: 4.0em;
-    }
+}
+@media (min-width: 1900px) {
+  .project-box .circle .cat, .project-box .circle h2  {
+    font-size: 4.0em;
   }
+}
 /* Landscape phones and down */
 @media (max-width: 480px) {
-    .project-box .circle .cat, .project-box .circle h2  {
-      font-size: 2.0em;
-    }
+  .project-box .circle .cat, .project-box .circle h2  {
+    font-size: 2.0em;
+  }
 }
-
-
 
 .tablet_indicator, .large_indicator, .xl_indicator, .mobile_indicator{
   display:none;
 }
-  @media (min-width: 768px) and (max-width: 979px) {
-    .tablet_indicator {
-      display: block;
-    }
+@media (min-width: 768px) and (max-width: 979px) {
+  .tablet_indicator {
+    display: block;
   }
- @media (min-width: 1200px) and (max-width: 1899px) {
-    .large_indicator {
-      display: block;
-    }
-  } 
- @media (min-width: 1900px) {
-     .xl_indicator {
-      display: block;
-    }
+}
+@media (min-width: 1200px) and (max-width: 1899px) {
+  .large_indicator {
+    display: block;
   }
-  @media (max-width: 480px) {
-     .mobile_indicator {
-      display: block;
-    }
+} 
+@media (min-width: 1900px) {
+   .xl_indicator {
+    display: block;
   }
-
+}
+@media (max-width: 480px) {
+   .mobile_indicator {
+    display: block;
+  }
+}
 
 .project-underline {
   position: absolute;
@@ -343,39 +337,32 @@ a:hover {
   line-height: 1.7;
   /* letter-spacing: 0.3em */
 }
-  /* XL desktop */
-  @media (min-width: 1900px) {
-    .post-content {
-      font-size: 3.6em;
-      padding-right:150px;
-    }
+/* XL desktop */
+@media (min-width: 1900px) {
+  .post-content {
+    font-size: 3.6em;
+    padding-right:150px;
   }
-  /* L desktop */
-  @media (min-width: 1200px) {
-  }  
-  /* Portrait tablet to landscape and desktop */
-  @media (min-width: 768px) and (max-width: 979px) {
-    .post-content {
-      padding-right: 70px;
-      padding-left: 70px;  /* matches sidebar right padding  */
-    }
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  .post-content {
+    padding-right: 70px;
+    padding-left: 70px;  /* matches sidebar right padding  */
   }
-  /* Landscape phone to portrait tablet */
-  @media (max-width: 767px) {
-    ...;
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .post-content {
+    padding-right: 40px;
   }
-  /* Landscape phones and down */
-  @media (max-width: 480px) {
-    .post-content {
-      padding-right: 40px;
-    }
+}
+/* iPhone 6s and down  */
+@media (max-width: 320px) {
+  .post-content {
+    font-size: 1.8em;
   }
-  /* iPhone 6s and down  */
-  @media (max-width: 320px) {
-    .post-content {
-      font-size: 1.8em;
-    }
-  }
+}
 
 /* sidebar */
 .sidebar {
@@ -384,41 +371,29 @@ a:hover {
   padding: 20px 30px 20px 100px;  
 }
 /* XL desktop */
-  @media (min-width: 1900px) {
-    .sidebar {
-      padding-left:150px;
-    }    
-  }
-  /* Large desktop */
-  @media (min-width: 1200px) {
-    ...;
-  }
-  /* Portrait tablet to landscape and desktop */
-  @media (min-width: 768px) and (max-width: 979px) {
-    .sidebar {
-      padding-left:70px;
-    }    
-  }
-   
-  /* Landscape phone to portrait tablet */
-  @media (max-width: 767px) {
-    ...;
-  }
-   
-  /* Landscape phones and down */
-  @media (max-width: 480px) {
-    .sidebar {
-      padding: 0 30px 0px 50px; 
-    }   
-  }
-
-  /* iPhone 6s and down  */
-  @media (max-width: 320px) {
-    .sidebar {
-      font-style: .7em;
-    }   
-  }
-   
+@media (min-width: 1900px) {
+  .sidebar {
+    padding-left:150px;
+  }    
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  .sidebar {
+    padding-left:70px;
+  }    
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .sidebar {
+    padding: 0 30px 0px 50px; 
+  }   
+}
+/* iPhone 6s and down  */
+@media (max-width: 320px) {
+  .sidebar {
+    font-style: .7em;
+  }   
+}
 
 /* project title */
 .sidebar h1 {
@@ -427,12 +402,12 @@ a:hover {
   font-size: 3.3em;
   font-weight: 900;
 }
-  /* iPhone 6s and down  */
-  @media (max-width: 320px) {
-    .sidebar {
-      font-size: .9em;
-    }   
-  }
+/* iPhone 6s and down  */
+@media (max-width: 320px) {
+  .sidebar {
+    font-size: .9em;
+  }   
+}
 
 /* project_links */
 ul.project_links, ul.tags {
@@ -459,7 +434,6 @@ ul.project_links li a:hover {
   color:  #1eaaab;
   text-decoration: none;
 }
-
 
 .twitter, .facebook, .link {
   background-position: 0 15px;
@@ -513,11 +487,11 @@ ul.tags li {
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
+
 ul.tags li:hover {
   background-color: #1eaaab;
   border: 1px solid #1eaaab;
 }
-
 
 .small_underline {
   border-bottom: 3px solid #f7eedf;
@@ -580,12 +554,13 @@ ul.tags li:hover {
 /**
  * Tag page
  */
- .tag-page .heading {
+.tag-page .heading {
   /* match the ul.tags li */
   text-align: center;
   margin:20px auto;
- }
- .tag-page .heading h1 {
+}
+
+.tag-page .heading h1 {
   font-weight: 300;
   font-size: 2.1em;
   color:  #f7eedf;
@@ -612,32 +587,34 @@ ul.tags li:hover {
   background-color: black;
   text-transform: uppercase;
 }
+
 .site-footer a {
   color: #7d7b80;
 }
-  @media (max-width: 979px) {
+@media (max-width: 979px) {
   .site-footer a {
-        color: #cbcacc;
-    }
+    color: #cbcacc;
   }
+}
 
 
 
 /** 
  * About page
  */ 
- .about-page {
+.about-page {
   font-family: "brandon-grotesque",sans-serif;
   color: #f7eedf;
   font-size: 2.3em;
   font-weight: 100;
-
   padding: 0 5%;
   margin: 20px 0;
 }
+
 .about-page .bio {
   font-size: .8em;
 }
+
 .about-page .row {
   padding-bottom:40px;
 }
@@ -669,7 +646,6 @@ blockquote > :last-child {
   padding-right: 30px;
   padding-left: 30px;
 }
-
 @media screen and (max-width: 800px) {
   .wrapper {
     max-width: -webkit-calc(800px - (30px));
