@@ -596,21 +596,6 @@ ul.tags li:hover {
     min-height: 900px; 
   }
 }
- 
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
-  ...;
-}
- 
-/* Landscape phones and down */
-@media (max-width: 480px) {
-  ...;
-}
-
-/* iPhone 6s and down  */
-@media (max-width: 320px) {
-  ...;
-}
 /* end janky fix */
 
 
