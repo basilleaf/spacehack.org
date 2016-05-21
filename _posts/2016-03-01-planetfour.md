@@ -4,8 +4,8 @@ title:  Planet Four
 category: Mars
 thumbnail: planetfour_square.jpg
 banner: planetfour_rectangle.jpg
-tw_image: planetfour_fb.jpg
-fb_image: planetfour_tw.jpg
+fb_image: planetfour_fb.jpg
+tw_image: planetfour_tw.jpg
 website: https://planetfour.org
 twitter: https://twitter.com/Planet_Four
 facebook: https://www.facebook.com/PlanetFourZooniverse

@@ -4,8 +4,8 @@ title:  Disk Detective
 category: Planets
 thumbnail: disk_square.jpg
 banner: disk_rectangle.jpg
-tw_image: disk_fb.jpg
-fb_image: disk_tw.jpg
+fb_image: disk_fb.jpg
+tw_image: disk_tw.jpg
 website: https://diskdetective.org
 twitter: https://twitter.com/diskdetective
 facebook: https://www.facebook.com/DiskDetect

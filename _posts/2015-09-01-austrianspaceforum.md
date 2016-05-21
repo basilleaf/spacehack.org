@@ -4,8 +4,8 @@ title:  Austrian Space Forum
 category: Mars
 thumbnail: austrian_square.jpg
 banner: austrian_rectangle.jpg
-tw_image: austrian_fb.jpg
-fb_image: austrian_tw.jpg
+fb_image: austrian_fb.jpg
+tw_image: austrian_tw.jpg
 website: http://oewf.org/en/become-member/want-become-research-associate/
 twitter: http://twitter.com/oewf
 facebook: http://www.facebook.com/spaceforum
