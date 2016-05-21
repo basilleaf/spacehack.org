@@ -4,6 +4,8 @@ title:  Sunspotter
 category: Sun
 thumbnail: sunspotter_square.jpg
 banner: sunspotter_rectangle.jpg
+tw_image: sunspotter_fb.jpg
+fb_image: sunspotter_tw.jpg
 website: https://sunspotter.org
 twitter: https://twitter.com/sunspotter_org
 facebook: 

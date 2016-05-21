@@ -4,6 +4,8 @@ title:  Planet Hunters
 category: Planets
 thumbnail: planethunters_square.jpg
 banner: planethunters_rectangle.jpg
+tw_image: planethunters_fb.jpg
+fb_image: planethunters_tw.jpg
 website: https://planethunters.org
 twitter: https://twitter.com/planethunters
 facebook: https://www.facebook.com/planethunters

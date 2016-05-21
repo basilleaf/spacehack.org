@@ -5,6 +5,8 @@ category: Astronauts
 deadline: 2016-08-01
 thumbnail: thinkoutsidethebox_square.jpg
 banner: thinkoutsidethebox_rectangle.jpg
+tw_image: thinkoutsidethebox_fb.jpg
+fb_image: thinkoutsidethebox_tw.jpg
 website: http://futureengineers.org/thinkoutsidethebox
 twitter: https://twitter.com/K12FutureE
 facebook: https://www.facebook.com/K12futureengineers
