@@ -50,8 +50,10 @@ var sh = {
         if (!sh.header_is_fixed) {
           sh.header_is_fixed = true;        
           $('header').addClass('black',300);
-          $('.about').css('top','25px');
 
+          if (!$('.mobile_indicator').is(':visible')) {
+            $('.about').css('top','25px');
+          } 
         }
     } else  {
       // scroll is less than 30, header is released
@@ -84,28 +86,27 @@ var sh = {
       // this browser does not suppoer position sticky, 
       // init scrollToFixed plugin 
 
-      //first of all, do this for chome ¯\_(ツ)_/¯
+      // first of all, do this for chome ¯\_(ツ)_/¯
       $('.about').css('top','35px').show(); // show only after top adjust
 
       $('.header').scrollToFixed({
           postFixed: function() { 
             // fires when header is released
-            $('.tagline').css('margin-top', '175px');
             $(this).css('margin-top', '-210px'); 
             $(this).css('background-color', 'transparent'); 
+            $('.tagline').css('margin-top', '175px');
             $('.about').css('top','35px');
             dontSetWidth: true;
             marginTop:0;
             },
           preFixed: function() { 
             // fires when header first becomes fixed
-            $('.tagline').css('margin-top', '-35px'); 
-            $('.about').css('top','25px');
             $(this).css('margin-top', 0); 
-            // $(this).css('background-color', 'black'); 
             $(this).animate({
               backgroundColor: "black",
             }, 300);
+            $('.tagline').css('margin-top', '-35px'); 
+            $('.about').css('top','25px');
             dontSetWidth: true
             marginTop:0;
           },
