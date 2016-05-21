@@ -4,20 +4,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{% if page.title %}{{ site.title }} - {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-
-
+  <!-- twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@spacehack">
   <meta name="twitter:creator" content="@arielwaldman">
   <meta name="twitter:title" content="{% if page.title %}{{ site.title }} - {{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.title %}{% else %}{{ site.description }}{% endif %}">
-  <meta name="twitter:image" content="{% if page.title %}//spacehack.org/assets/small/{{ page.banner }}{% else %}//spacehack.org/assets/img/social/twitter/twitter_spacehack.jpg{% endif %}">
+  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 250 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:image" content="{% if page.title %}https://spacehack.org/assets/img/social/twitter/{{ page.tw_image }}{% else %}https://spacehack.org/assets/img/social/twitter/twitter_spacehack.jpg{% endif %}">
 
-
-  <link rel = "image_src" href = "//spacehack.org/assets/img/social/fb/facebook_spacehack.jpg">
-
+  <!-- facebook -->  
+  <link rel = "image_src" href = "{% if page.title %}https://spacehack.org/assets/img/social/fb/{{ page.fb_image }}{% else %}//spacehack.org/assets/img/social/fb/facebook_spacehack.jpg{% endif %}">
 
   <script src="https://use.typekit.net/gsr5www.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
