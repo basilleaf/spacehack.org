@@ -417,7 +417,7 @@ a:hover {
 /* Landscape phones and down */
 @media (max-width: 480px) {
   .sidebar {
-    padding: 0 30px 0px 50px; 
+    padding: 30px 30px 0px 50px; 
   }   
 }
 /* iPhone 6s and down  */
