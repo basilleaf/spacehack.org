@@ -70,6 +70,26 @@ a:hover {
   right:40px;
 }
 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .about {
+      position:absolute;
+      top:15px;
+      right:20px;
+    }
+}
+
+/* iPhone 6s and down  */
+@media (max-width: 320px) {
+.about {
+      position:absolute;
+      top:10px;
+      right:7px;
+    }
+}
+
+
+
 .about a {
   /* matches tagline */
   font-family: "brandon-grotesque",sans-serif;
@@ -79,11 +99,6 @@ a:hover {
   text-align: center;
   font-weight: 400;
   text-shadow: 1px 1px black; 
-}
-@media (max-width: 979px) {
-  .about a {
-      /* color: #e5e4e5; */
-  }
 }
 
 .header {
