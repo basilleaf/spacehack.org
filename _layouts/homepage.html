@@ -7,27 +7,24 @@ title: homepage
   {% include head.html %}
 
   <body>
-  
-    <h1 class="hidden">{{ site.title }}</h1>
 
-    <div class="hero-image"></div>
+      <h1 class="hidden">{{ site.title }}</h1>
 
-    {% include header.html %}
+      <div class="hero-image"></div>
 
-    <div class="tagline">
+      {% include header.html %}
 
-      <h2>{{ site.description }}</h2>
+      <div class="tagline">
 
-    </div>
+        <h2>{{ site.description }}</h2>
 
+      </div>
 
   <div class="project-grid row">
 
 {% endif %}
 
-
 {% include homepage_grid.html %}
-
 
 <span class = "tablet_indicator"></span>
 <span class = "large_indicator"></span>

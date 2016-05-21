@@ -45,8 +45,8 @@ a:visited {
 }
 
 a:hover {
-  color: #77ccc9;
-  text-decoration: underline;
+  color:  #1eaaab;
+  text-decoration: none;
 }
 
 .wf-loading {
@@ -64,10 +64,10 @@ a:hover {
 * 
 **/
 .about {
-  position:fixed;
-  top:0;
-  right:0;
-  padding: 15px 25px;
+  display:none;
+  position:absolute;
+  top:15px;
+  right:40px;
 }
 
 .about a {
@@ -78,16 +78,17 @@ a:hover {
   font-size: 1.3em;
   text-align: center;
   font-weight: 400;
+  text-shadow: 1px 1px black; 
 }
 @media (max-width: 979px) {
   .about a {
-      color: #e5e4e5;
+      /* color: #e5e4e5; */
   }
 }
 
 .header {
   z-index: 10000;
-  margin-top:-200px;
+  margin-top:-210px;
   padding-bottom:2px;
 }
 
@@ -115,7 +116,7 @@ a:hover {
   font-family: orator-std ,sans-serif;
   transform: scaleY(1.1);
   font-style: normal;
-  font-size: 1.7em;
+  font-size: 2.0em;
   text-transform: uppercase;
   text-align: center;
   color: #f7eedf;
@@ -156,7 +157,7 @@ a:hover {
 .tagline  {
   width:100%;
   margin:0; padding:0;
-  margin-top:170px;
+  margin-top:175px;
   padding: 0 20px;
   padding-bottom:20px;
   text-align: center;
@@ -164,15 +165,15 @@ a:hover {
 
 .tagline h2 {
   font-family: "brandon-grotesque",sans-serif;
+  font-weight: 300;
   color: #7d7b80;
   text-transform: uppercase;
-  font-size: 1.2em;
+  font-size: 1.4em;
   text-align: center;
-  font-weight: 300;
 }
 @media (max-width: 979px) {
 .tagline h2 {
-      color: #cbcacc;
+      /* color: #cbcacc; */
   }
 }
 
@@ -315,6 +316,18 @@ a:hover {
   border-bottom: 2px solid #f7eedf;
 }
 
+
+/** 
+ * random pages
+ */
+.page {
+  max-width:1200px;
+  margin:0 auto;
+}
+.page p{
+  margin:30px 30px;
+
+}
 
 /**
  * Posts aka project page
@@ -554,6 +567,53 @@ ul.tags li:hover {
 /**
  * Tag page
  */
+
+ /* janky as fix for footer that won't stick to bootom #todo */
+.tag-page {
+  min-height: 550px; 
+}
+/* XL desktop */
+@media (min-width: 1900px) {
+  .tag-page {
+    min-height: 1000px; 
+  }
+}
+/* Large desktop */
+@media (min-width: 1200px) {
+  .tag-page {
+    min-height: 700px; 
+  }
+}
+/* Large desktop */
+@media (min-width: 1000px) {
+  .tag-page {
+    min-height: 1200px; 
+  }
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  .tag-page {
+    min-height: 900px; 
+  }
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  ...;
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  ...;
+}
+
+/* iPhone 6s and down  */
+@media (max-width: 320px) {
+  ...;
+}
+/* end janky fix */
+
+
 .tag-page .heading {
   /* match the ul.tags li */
   text-align: center;
@@ -578,15 +638,16 @@ ul.tags li:hover {
  * Site footer
  */
 .site-footer {
+  margin:0;
   font-family: "brandon-grotesque",sans-serif;
   text-align: right;
   font-size:1.1em;
-  width: 100%;
   margin-top:25px;
-  padding:15px 50px;
+  padding:15px 40px;
   background-color: black;
   text-transform: uppercase;
 }
+
 
 .site-footer a {
   color: #7d7b80;
@@ -608,11 +669,14 @@ ul.tags li:hover {
   font-size: 2.3em;
   font-weight: 100;
   padding: 0 5%;
-  margin: 20px 0;
+  margin: 40px 0;
 }
+.about-page img {
+  padding-top:10px;
 
+}
 .about-page .bio {
-  font-size: .8em;
+  /* font-size: .8em; */
 }
 
 .about-page .row {
@@ -635,35 +699,6 @@ blockquote > :last-child {
 }
 
 
-/**
- * Wrapper (WTF?)
- */
-.wrapper {
-  max-width: -webkit-calc(800px - (30px * 2));
-  max-width: calc(800px - (30px * 2));
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 30px;
-  padding-left: 30px;
-}
-@media screen and (max-width: 800px) {
-  .wrapper {
-    max-width: -webkit-calc(800px - (30px));
-    max-width: calc(800px - (30px));
-    padding-right: 15px;
-    padding-left: 15px;
-  };
-}
-
-
-/**
- * Clearfix
- */
-.wrapper:after, .footer-col-wrapper:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 
 /**
