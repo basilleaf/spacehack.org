@@ -1,6 +1,31 @@
 /**
  * Basic styling
  */
+
+
+/*
+
+Sticky Footer by Ryan Fait
+http://ryanfait.com/
+
+*/
+* {
+margin: 0;
+}
+html, body {
+ height: 100%;
+}
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -4em;
+}
+.footer, .push {
+ height: 4em;
+}
+
+
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -578,37 +603,6 @@ ul.tags li:hover {
  * Tag page
  */
 
- /* janky as fix for footer that won't stick to bootom #todo */
-.tag-page {
-  min-height: 550px; 
-}
-/* XL desktop */
-@media (min-width: 1900px) {
-  .tag-page {
-    min-height: 1000px; 
-  }
-}
-/* Large desktop */
-@media (min-width: 1200px) {
-  .tag-page {
-    min-height: 700px; 
-  }
-}
-/* Large desktop */
-@media (min-width: 1000px) {
-  .tag-page {
-    min-height: 1200px; 
-  }
-}
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) {
-  .tag-page {
-    min-height: 900px; 
-  }
-}
-/* end janky fix */
-
-
 .tag-page .heading {
   /* match the ul.tags li */
   text-align: center;
@@ -632,6 +626,7 @@ ul.tags li:hover {
 /**
  * Site footer
  */
+
 .site-footer {
   margin:0;
   font-family: "brandon-grotesque",sans-serif;
@@ -641,8 +636,11 @@ ul.tags li:hover {
   padding:15px 40px;
   background-color: black;
   text-transform: uppercase;
+  height: 3.5em;
 }
-
+.site-footer, .push {
+  height: 3.5em;
+}
 
 .site-footer a {
   color: #7d7b80;
@@ -668,12 +666,7 @@ ul.tags li:hover {
 }
 .about-page img {
   padding-top:10px;
-
 }
-.about-page .bio {
-  /* font-size: .8em; */
-}
-
 .about-page .row {
   padding-bottom:40px;
 }
@@ -692,8 +685,6 @@ blockquote {
 blockquote > :last-child {
   margin-bottom: 0;
 }
-
-
 
 
 /**
