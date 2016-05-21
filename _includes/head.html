@@ -6,7 +6,18 @@
   <title>{% if page.title %}{{ site.title }} - {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <link rel = "image_src" href = "//assets/img/lunarlandscape4.jpg">
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@spacehack">
+  <meta name="twitter:creator" content="@arielwaldman">
+  <meta name="twitter:title" content="{% if page.title %}{{ site.title }} - {{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.title %}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:image" content="{% if page.title %}//assets/small/{{ page.banner }}{% else %}/assets/social/twitter/twitter_spacehack.jpg{% endif %}">
+
+
+  <link rel = "image_src" href = "//assets/img/social/fb/facebook_spacehack.jpg">
+
 
   <script src="https://use.typekit.net/gsr5www.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
