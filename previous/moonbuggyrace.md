@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: page
 title:  NASA Great Moonbuggy Race
 permalink: /moonbuggyrace/
 website: http://spacehack.org/project/moonbuggy-race
-tags: 
+tags:
   - competition
   - engineering
   - lunar
@@ -11,10 +11,12 @@ tags:
   - moonbuggy
   - students
 featured_tags: engineering, competition
-cats: 
+cats:
   - competition
 old_site_image: http://spacehack.org/wp-content/uploads/2008/12/moonbuggy.jpg
 status: previous
+redirect_from:
+  - /project/moonbuggy-race
 ---
 
 <div class = "scrape-from-old-wordpress">

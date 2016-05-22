@@ -1,23 +1,27 @@
+import json
+
 # via http://spacehack.org/?json=1
 
-with open("posts.json") as json_file:
+with open("old_site.json") as json_file:
     json_data = json.load(json_file)
 
 posts = json_data['posts']
 
 yaml = """
 ---
-layout: post
+layout: page
 title:  %s
 permalink: /%s/
 website: %s
-tags: 
+tags:
 %s
 featured_tags: %s
-cats: 
+cats:
 %s
 old_site_image: %s
 status: previous
+redirect_from:
+  - %s
 ---
 
 <div class = "scrape-from-old-wordpress">
@@ -44,6 +48,10 @@ for p in posts:
     url_slug = p['url'].split('/project/')[1].replace('-','')
     date_str = p['date'].split(' ')[0]
 
+    old_slug = '/project/' + p['url'].split('/project/')[1]
+
+    print old_slug
+
     # old_site_image
     try:
         img = p['attachments'][0]['images']['full']['url']
@@ -55,8 +63,8 @@ for p in posts:
 
 
     if 'previous' in status:
-        
-        markdown = yaml % (title, url_slug, website, tags, featured_tags, cats, img, content)
+
+        markdown = yaml % (title, url_slug, website, tags, featured_tags, cats, img, old_slug, content)
 
         # filename = "%s-%s.md" % (date_str, url_slug)
         filename = "%s.md" % url_slug
@@ -64,5 +72,3 @@ for p in posts:
         target = open(filename, 'w')
         target.write(markdown)
         target.close()
-    
-

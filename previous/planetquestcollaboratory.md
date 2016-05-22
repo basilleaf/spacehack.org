@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: page
 title:  PlanetQuest Collaboratory
 permalink: /planetquestcollaboratory/
 website: http://spacehack.org/project/planetquest-collaboratory
-tags: 
+tags:
   - astronomy
   - boinc
   - data analysis
@@ -13,10 +13,12 @@ tags:
   - planets
   - stars
 featured_tags: astronomy, data analysis
-cats: 
+cats:
   - data analysis
 old_site_image: http://spacehack.org/wp-content/uploads/2008/11/planetquest.jpg
 status: previous
+redirect_from:
+  - /project/planetquest-collaboratory
 ---
 
 <div class = "scrape-from-old-wordpress">

@@ -1,21 +1,23 @@
 ---
-layout: post
+layout: page
 title:  Hawaii Mars Analogue
 permalink: /hawaiimarsanaloguemission/
 website: http://spacehack.org/project/hawaii-mars-analogue-mission
-tags: 
+tags:
   - data analysis
   - mars
 featured_tags: mars, data analysis
-cats: 
+cats:
   - data analysis
 old_site_image: http://spacehack.org/wp-content/uploads/2012/02/hawaii_new2.jpg
 status: previous
+redirect_from:
+  - /project/hawaii-mars-analogue-mission
 ---
 
 <div class = "scrape-from-old-wordpress">
 
-<p style="text-align: right;"><img class="alignnone size-full wp-image-1562" title="" src="/wp-content/uploads/2012/02/hawaii_dead.jpg" alt="deadline passed" width="446" height="216" srcset="http://spacehack.org/wp-content/uploads/2012/02/hawaii_dead-310x150.jpg 310w, http://spacehack.org/wp-content/uploads/2012/02/hawaii_dead.jpg 446w" sizes="(max-width: 446px) 100vw, 446px" /><br />
+<p style="text-align: right;"><img class="alignnone size-full wp-image-1562" title="" src="/wp-content/uploads/2012/02/hawaii_dead.jpg" alt="deadline passed" width="446" height="216" srcset="http://spacehack.org/wp-content/uploads/2012/02/hawaii_dead.jpg 446w, http://spacehack.org/wp-content/uploads/2012/02/hawaii_dead-310x150.jpg 310w" sizes="(max-width: 446px) 100vw, 446px" /><br />
 <small><em>AMASE</em></small></p>
 <p>Be an astronaut on a mission to Mars for four months! A research program is seeking participants for a simulated Mars mission, taking place in 2013 in Hawaii. The Hawaii Mars Analogue Mission and Food Study is designed to simulate the living, eating and working experience of astronauts on a real planetary mission.</p>
 <p>Six prime and two alternate crew members will be selected to participate in:<br />

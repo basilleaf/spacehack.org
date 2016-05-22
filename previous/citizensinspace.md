@@ -1,18 +1,20 @@
 ---
-layout: post
+layout: page
 title:  Citizens In Space
 permalink: /citizensinspace/
 website: http://spacehack.org/project/citizens-in-space
-tags: 
+tags:
   - astrobiology
   - competition
   - cubesats
   - satellites
 featured_tags: satellites, competition
-cats: 
+cats:
   - competition
 old_site_image: http://spacehack.org/wp-content/uploads/2012/07/citizensinspace_large.jpg
 status: previous
+redirect_from:
+  - /project/citizens-in-space
 ---
 
 <div class = "scrape-from-old-wordpress">

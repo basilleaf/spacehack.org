@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: page
 title:  Solar Stormwatch
 permalink: /solarstormwatch/
 website: http://spacehack.org/project/solar-stormwatch
-tags: 
+tags:
   - data analysis
   - nasa stereo
   - royal observatory greenwich
@@ -12,10 +12,12 @@ tags:
   - solar storms
   - zooniverse
 featured_tags: solar, data analysis
-cats: 
+cats:
   - data analysis
 old_site_image: 
 status: previous
+redirect_from:
+  - /project/solar-stormwatch
 ---
 
 <div class = "scrape-from-old-wordpress">

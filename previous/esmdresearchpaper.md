@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: page
 title:  NASA ESMD Competition
 permalink: /esmdresearchpaper/
 website: http://spacehack.org/project/esmd-research-paper
-tags: 
+tags:
   - competition
   - esmd
   - nasa
@@ -12,15 +12,17 @@ tags:
   - students
   - writing
 featured_tags: space exploration, competition
-cats: 
+cats:
   - competition
 old_site_image: http://spacehack.org/wp-content/uploads/2009/11/esmdresearch.jpg
 status: previous
+redirect_from:
+  - /project/esmd-research-paper
 ---
 
 <div class = "scrape-from-old-wordpress">
 
-<p><img class="alignnone size-full wp-image-1422" title="" src="/wp-content/uploads/2007/11/esmdresearch_dead.jpg" alt="the deadline for this project has passed" width="446" height="216" srcset="http://spacehack.org/wp-content/uploads/2007/11/esmdresearch_dead-310x150.jpg 310w, http://spacehack.org/wp-content/uploads/2007/11/esmdresearch_dead.jpg 446w" sizes="(max-width: 446px) 100vw, 446px" /></p>
+<p><img class="alignnone size-full wp-image-1422" title="" src="/wp-content/uploads/2007/11/esmdresearch_dead.jpg" alt="the deadline for this project has passed" width="446" height="216" srcset="http://spacehack.org/wp-content/uploads/2007/11/esmdresearch_dead.jpg 446w, http://spacehack.org/wp-content/uploads/2007/11/esmdresearch_dead-310x150.jpg 310w" sizes="(max-width: 446px) 100vw, 446px" /></p>
 <p>Join NASA s mission to bring us to the Moon, Mars and beyond by submitting a research paper on one of the four ESMD topics listed below. Your research may be used as the solution to current NASA challenges. Open to students who are United States citizens in an undergraduate or graduate studies program.</p>
 <p>1. Spacecraft Landing and Recovery Architecture: Historical Approaches and Ideas for the Future<br />
 2. Synergistic degradation effects of materials exposed to radiation, micrometeors, thermal sinks and lunar dust<br />

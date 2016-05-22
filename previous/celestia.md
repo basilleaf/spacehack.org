@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: page
 title:  Celestia
 permalink: /celestia/
 website: http://spacehack.org/project/celestia
-tags: 
+tags:
   - 3D
   - celestia
   - education
@@ -13,10 +13,12 @@ tags:
   - universe
   - visualization
 featured_tags: visualization, open source
-cats: 
+cats:
   - open source
 old_site_image: http://spacehack.org/wp-content/uploads/2008/12/celestia.jpg
 status: previous
+redirect_from:
+  - /project/celestia
 ---
 
 <div class = "scrape-from-old-wordpress">

@@ -1,23 +1,25 @@
 ---
-layout: post
+layout: page
 title:  Robonaut Challenge
 permalink: /robonautchallenge/
 website: http://spacehack.org/project/robonaut-challenge
-tags: 
+tags:
   - computer vision
   - international space station
   - nasa
   - robots
 featured_tags: robots, international space station
-cats: 
+cats:
   - competition
 old_site_image: http://spacehack.org/wp-content/uploads/2013/04/robonaut_large.jpg
 status: previous
+redirect_from:
+  - /project/robonaut-challenge
 ---
 
 <div class = "scrape-from-old-wordpress">
 
-<p style="text-align: right;"><img class="size-full wp-image-2129" alt="" src="http://spacehack.org/wp-content/uploads/2013/04/robonaut_large.jpg" width="446" height="216" srcset="http://spacehack.org/wp-content/uploads/2013/04/robonaut_large-310x150.jpg 310w, http://spacehack.org/wp-content/uploads/2013/04/robonaut_large.jpg 892w" sizes="(max-width: 446px) 100vw, 446px" /><br />
+<p style="text-align: right;"><img class="size-full wp-image-2129" alt="" src="http://spacehack.org/wp-content/uploads/2013/04/robonaut_large.jpg" width="446" height="216" srcset="http://spacehack.org/wp-content/uploads/2013/04/robonaut_large.jpg 892w, http://spacehack.org/wp-content/uploads/2013/04/robonaut_large-310x150.jpg 310w" sizes="(max-width: 446px) 100vw, 446px" /><br />
 <small><em>NASA</em></small></p>
 <p>A challenge to hack one of NASA&#8217;s robots in space. The NASA Robonaut Challenge tasks developers with tinkering Robonaut 2, NASA&#8217;s robot that lives on the International Space Station (ISS). In this <a href="http://community.topcoder.com/ntl">NASA Tournament Lab</a> challenge, robotics and computer vision enthusiasts will be helping train <a href="http://en.wikipedia.org/wiki/Robonaut#Robonaut_2">Robonaut 2</a>.</p>
 <p>Robonaut 2 needs to learn how to interact with the types of input devices the astronauts use on the ISS. NASA has built several taskboards for Robonaut to play with. The taskboards have a number of LEDs that turn on when the power switch is flipped or the buttons are pushed. In these challenges, competitors will write algorithms in C++ to control Robonaut 2 and teach it how to interact with the taskboard.</p>

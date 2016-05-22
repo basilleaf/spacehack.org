@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: page
 title:  TubeSat Kit
 permalink: /tubesatpskit/
 website: http://spacehack.org/project/tubesat-ps-kit
-tags: 
+tags:
   - diy
   - hardware
   - interorbital
@@ -13,10 +13,12 @@ tags:
   - tubesat
   - tubesats
 featured_tags: satellites, hardware
-cats: 
+cats:
   - hardware
 old_site_image: 
 status: previous
+redirect_from:
+  - /project/tubesat-ps-kit
 ---
 
 <div class = "scrape-from-old-wordpress">

@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: page
 title:  Open Luna Foundation
 permalink: /openlunafoundation/
 website: http://spacehack.org/project/open-luna-foundation
-tags: 
+tags:
   - engineering
   - international
   - lunar
@@ -11,10 +11,12 @@ tags:
   - open source
   - robotics
 featured_tags: lunar, open source
-cats: 
+cats:
   - open source
 old_site_image: http://spacehack.org/wp-content/uploads/2009/01/openluna.jpg
 status: previous
+redirect_from:
+  - /project/open-luna-foundation
 ---
 
 <div class = "scrape-from-old-wordpress">

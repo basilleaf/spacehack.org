@@ -1,18 +1,20 @@
 ---
-layout: post
+layout: page
 title:  Mapper
 permalink: /mapper/
 website: http://spacehack.org/project/mapper
-tags: 
+tags:
   - data analysis
   - extraterrestrial life
   - microbialites
   - nasa
 featured_tags: extraterrestrial life, data analysis
-cats: 
+cats:
   - data analysis
 old_site_image: http://spacehack.org/wp-content/uploads/2012/06/mapper_crop2.jpg
 status: previous
+redirect_from:
+  - /project/mapper
 ---
 
 <div class = "scrape-from-old-wordpress">

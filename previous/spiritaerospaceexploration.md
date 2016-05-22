@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: page
 title:  Spirit of Innovation Awards
 permalink: /spiritaerospaceexploration/
 website: http://spacehack.org/project/spirit-aerospace-exploration
-tags: 
+tags:
   - competition
   - conrad foundation
   - international
@@ -11,15 +11,17 @@ tags:
   - spirit of innovation awards
   - students
 featured_tags: space exploration, competition
-cats: 
+cats:
   - competition
 old_site_image: http://spacehack.org/wp-content/uploads/2007/09/conrad_small.jpg
 status: previous
+redirect_from:
+  - /project/spirit-aerospace-exploration
 ---
 
 <div class = "scrape-from-old-wordpress">
 
-<p><img class="alignnone size-full wp-image-2183" alt="conrad_large" src="/wp-content/uploads/2007/09/conrad_large.jpg" width="446" height="216" srcset="http://spacehack.org/wp-content/uploads/2007/09/conrad_large-310x150.jpg 310w, http://spacehack.org/wp-content/uploads/2007/09/conrad_large.jpg 892w" sizes="(max-width: 446px) 100vw, 446px" /></p>
+<p><img class="alignnone size-full wp-image-2183" alt="conrad_large" src="/wp-content/uploads/2007/09/conrad_large.jpg" width="446" height="216" srcset="http://spacehack.org/wp-content/uploads/2007/09/conrad_large.jpg 892w, http://spacehack.org/wp-content/uploads/2007/09/conrad_large-310x150.jpg 310w" sizes="(max-width: 446px) 100vw, 446px" /></p>
 <p>Here s your chance to develop products that can help propel the aerospace industry forward in the exploration and knowledge of space. The Spirit of Innovation Awards: Aerospace Exploration category challenges teams of 2-5 domestic or international high school students to solve real-world problems by creating an innovative product for use in aerospace exploration. The Aerospace Exploration category encompasses any products with reasonable commercial opportunity in the aerospace industry   vehicles, spacesuits, planetary exploration, satellites, space medicine, Earth observation and more. Think biomedical   missions to the moon and Mars   other aerospace innovations. The industry is ripe for new ideas.</p>
 <p>Competing students will be guided through a phased pathway incorporating science, technology, design, marketing and business in an interdisciplinary, project-based product development experience. Teams will be provided the opportunity to meet with and learn from professional scientists and entrepreneurs who will advise them on how to commercialize their products for general market use. Awards are provided to the schools, teachers, and students for the top product designs. If selected as a finalist, you will be invited to attend the Innovation Summit at NASA and present your ideas to world level venture capitalists, angel investors, business leaders, and scientists. Selected teams will receive funding to continue the development of their products and may go on to participate in The Portal where they may choose to patent their product and have an opportunity to enter the commercial marketplace.</p>
 <p>By October 24, 2013:</p>

@@ -1,18 +1,20 @@
 ---
-layout: post
+layout: page
 title:  Odysseus Contest
 permalink: /odysseus/
 website: http://spacehack.org/project/odysseus
-tags: 
+tags:
   - competition
   - europe
   - space exploration
   - students
 featured_tags: space exploration, competition
-cats: 
+cats:
   - competition
 old_site_image: http://spacehack.org/wp-content/uploads/2012/07/odysseus_crop.jpg
 status: previous
+redirect_from:
+  - /project/odysseus
 ---
 
 <div class = "scrape-from-old-wordpress">

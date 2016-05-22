@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: page
 title:  Yuri&#8217;s Night
 permalink: /yurisnight/
 website: http://spacehack.org/project/yuris-night
-tags: 
+tags:
   - celebration
   - cosmonaut
   - event
@@ -11,15 +11,17 @@ tags:
   - space exploration
   - yuri's night
 featured_tags: space exploration, event
-cats: 
+cats:
   - event
 old_site_image: http://spacehack.org/wp-content/uploads/2007/06/yurisnight.jpg
 status: previous
+redirect_from:
+  - /project/yuris-night
 ---
 
 <div class = "scrape-from-old-wordpress">
 
-<p><img class="alignnone size-full wp-image-1116" src="/wp-content/uploads/2007/06/yurisnight.jpg" alt="" width="446" height="216" srcset="http://spacehack.org/wp-content/uploads/2007/06/yurisnight-309x150.jpg 309w, http://spacehack.org/wp-content/uploads/2007/06/yurisnight-310x150.jpg 310w, http://spacehack.org/wp-content/uploads/2007/06/yurisnight.jpg 446w" sizes="(max-width: 446px) 100vw, 446px" /></p>
+<p><img class="alignnone size-full wp-image-1116" src="/wp-content/uploads/2007/06/yurisnight.jpg" alt="" width="446" height="216" srcset="http://spacehack.org/wp-content/uploads/2007/06/yurisnight.jpg 446w, http://spacehack.org/wp-content/uploads/2007/06/yurisnight-309x150.jpg 309w, http://spacehack.org/wp-content/uploads/2007/06/yurisnight-310x150.jpg 310w" sizes="(max-width: 446px) 100vw, 446px" /></p>
 <p>Whether in someone&#8217;s living room, a nightclub or a world-class science museum, all <a href="http://yurisnight.net/">Yuri&#8217;s Night</a> events have one thing in common &#8211; people who are excited about space exploration and who want to join together to celebrate it. Everyone around the world is encouraged to create their own Yuri&#8217;s Night event!</p>
 <p>&#8220;Let&#8217;s go!&#8221; These were the words spoken by Russian Cosmonaut <a href="http://en.wikipedia.org/wiki/Yuri_Gagarin">Yuri Gagarin</a> as he embarked on the historic first manned space flight on 12 April 1961. Twenty years later on 12 April 1981, the US launched the first space shuttle flight. That&#8217;s something worth celebrating. Every year on April 12th Yuri&#8217;s Night is celebrated all around the world &#8211; in 2011 there were 567 events held in 75 countries worldwide. The range of events is as diverse as the people who hold them &#8211; even the residents of Antarctica and the International Space Station have been known to join in the fun!</p>
 <p><span style="text-decoration: underline;">Project owners + coordinators</span>:<br />

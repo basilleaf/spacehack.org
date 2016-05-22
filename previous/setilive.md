@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: page
 title:  SETILive
 permalink: /setilive/
 website: http://spacehack.org/project/setilive
-tags: 
+tags:
   - aliens
   - allen telescope array
   - data analysis
@@ -13,10 +13,12 @@ tags:
   - seti
   - zooniverse
 featured_tags: extraterrestrial life, data analysis
-cats: 
+cats:
   - data analysis
 old_site_image: http://spacehack.org/wp-content/uploads/2012/03/setilive2.jpg
 status: previous
+redirect_from:
+  - /project/setilive
 ---
 
 <div class = "scrape-from-old-wordpress">
