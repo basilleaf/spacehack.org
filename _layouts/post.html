@@ -8,7 +8,7 @@ layout: default
 
   <img width = "100%" src="/assets/img/{{ page.banner }}" alt="">
 
-</div>  
+</div>
 
 {% else %}
 <div class = "nobanner">
@@ -17,11 +17,11 @@ layout: default
 <div class="project-page row">
 
   <div class="content sidebar col-sm-4">
-      
+
     <h1>{{ page.title }}</h1>
 
     <div class = "small-underline"></div>
-      
+
     <ul class = "project-links">
 
       {% if page.website %}
@@ -46,9 +46,9 @@ layout: default
 
       <ul class = "tags hidden-xs">
         {% for tag in page.tags %}
-          
+
           <li><a href = "/tag/{{ tag }}/">{{ tag }}</a></li>
-          
+
           {% comment %} only display 3 {% endcomment %}
           {% assign c = c | plus: 1 %}
           {% if c == 5 %} {% break %} {% endif %}
@@ -72,9 +72,9 @@ layout: default
 
     <ul class = "tags visible-xs">
       {% for tag in page.tags %}
-        
+
           <li><a href = "/tag/{{ tag }}/">{{ tag }}</a></li>
-        
+
         {% comment %} only display 3 {% endcomment %}
         {% assign c = c | plus: 1 %}
         {% if c == 3 %} {% break %} {% endif %}

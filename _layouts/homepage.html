@@ -8,32 +8,38 @@ title: homepage
 
   <body>
 
-      <h1 class="hidden">{{ site.title }}</h1>
+      <div class = "wrapper">
 
-      <div class="hero-image"></div>
+        <h1 class="hidden">{{ site.title }}</h1>
 
-      {% include header.html %}
+        <div class="hero-image"></div>
 
-      <div class="tagline">
+        {% include header.html %}
 
-        <h2>{{ site.description }}</h2>
+        <div class="tagline">
 
-      </div>
+          <h2>{{ site.description }}</h2>
 
-  <div class="project-grid row">
+        </div>
 
-{% endif %}
+    <div class="project-grid row">
 
-{% include homepage_grid.html %}
+  {% endif %}
 
-<span class = "tablet-indicator"></span>
-<span class = "large-indicator"></span>
-<span class = "xl-indicator"></span>
-<span class = "mobile-indicator"></span>
+  {% include homepage_grid.html %}
 
-{% if page.url contains 'page' %}{% else %}
+  <span class = "tablet-indicator"></span>
+  <span class = "large-indicator"></span>
+  <span class = "xl-indicator"></span>
+  <span class = "mobile-indicator"></span>
 
-  </div><!-- /grid -->
+  {% if page.url contains 'page' %}{% else %}
+
+    </div><!-- /grid -->
+
+    <div class="push"></div>
+
+  </div> <!-- /wrapper  -->
 
     {% include footer.html  %}
 

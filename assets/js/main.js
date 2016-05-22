@@ -15,7 +15,7 @@ $(function() {
     loadingHtml:'',
     callback: function() {
       $('a.next').remove();  // it was getting confused
-      sh.adjustGridfonts(); // adjusts newly loaded project titles that are too big for their circles
+      sh.adjustGridfonts();  // adjusts newly loaded project titles that are too big for their circles
     }
   });
 
