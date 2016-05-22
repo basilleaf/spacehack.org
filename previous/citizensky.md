@@ -15,7 +15,7 @@ old_site_image: http://spacehack.org/wp-content/uploads/2010/09/citizensky.jpg
 status: previous
 ---
 
-<div class = "scrape_from_old_wordpress">
+<div class = "scrape-from-old-wordpress">
 
 <div id="attachment_1202" style="width: 456px" class="wp-caption alignnone"><img class="size-full wp-image-1202 " alt="" src="/wp-content/uploads/2010/09/citizensky.jpg" width="446" height="216" srcset="http://spacehack.org/wp-content/uploads/2010/09/citizensky-309x150.jpg 309w, http://spacehack.org/wp-content/uploads/2010/09/citizensky-310x150.jpg 310w, http://spacehack.org/wp-content/uploads/2010/09/citizensky.jpg 446w" sizes="(max-width: 446px) 100vw, 446px" /><p class="wp-caption-text">Epsilon Aurigae artwork by Brian Thieme</p></div>
 <p><a href="http://www.citizensky.org/content/star-our-project">Epsilon Aurigae</a> is a supergiant star located 2,000 light years from Earth that mysteriously gets eclipsed every 27.1 years by an equally large unknown dark object. The event has baffled scientists since 1821, but through the Citizen Sky project, you&#8217;ll make observations and analyses that could decipher this scientific puzzle!</p>

@@ -15,7 +15,7 @@ old_site_image: http://spacehack.org/wp-content/uploads/2007/04/spaceapps_large.
 status: previous
 ---
 
-<div class = "scrape_from_old_wordpress">
+<div class = "scrape-from-old-wordpress">
 
 <p><img class="alignnone size-full wp-image-2043" src="/wp-content/uploads/2007/04/spaceapps_large.jpg" alt="" width="446" height="216" srcset="http://spacehack.org/wp-content/uploads/2007/04/spaceapps_large-310x150.jpg 310w, http://spacehack.org/wp-content/uploads/2007/04/spaceapps_large.jpg 892w" sizes="(max-width: 446px) 100vw, 446px" /></p>
 <p>A two-day hackathon-style event that invites people from around the world to create and collaborate on projects relevant to space exploration. The International Space Apps Challenge is a &#8220;technology development marathon&#8221;, where software developers, engineers, designers and technologists from around the world can mashup data, code and design to create clever solutions, explorations and experiments. Attendees can submit their own hack ideas or work on existing ones. <a href="http://2012.spaceappschallenge.org/challenges/">Some hack ideas from 2012</a> included redesigning the Voyager Golden Record, creating better access to NASA data, mapping Earth&#8217;s Aurora, building suborbital payloads, and developing methods and equipment for baking in space.</p>

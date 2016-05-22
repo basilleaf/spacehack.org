@@ -20,7 +20,7 @@ old_site_image: %s
 status: previous
 ---
 
-<div class = "scrape_from_old_wordpress">
+<div class = "scrape-from-old-wordpress">
 
 %s
 

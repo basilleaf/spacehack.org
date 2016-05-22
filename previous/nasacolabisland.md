@@ -22,7 +22,7 @@ old_site_image: http://spacehack.org/wp-content/uploads/2007/11/nasacolabisland_
 status: previous
 ---
 
-<div class = "scrape_from_old_wordpress">
+<div class = "scrape-from-old-wordpress">
 
 <p><img class="alignnone size-full wp-image-1395" title="" src="http://spacehack.org/wp-content/uploads/2007/11/nasacolabisland_dead.jpg" alt="deadline passed" width="446" height="216" srcset="http://spacehack.org/wp-content/uploads/2007/11/nasacolabisland_dead-310x150.jpg 310w, http://spacehack.org/wp-content/uploads/2007/11/nasacolabisland_dead.jpg 446w" sizes="(max-width: 446px) 100vw, 446px" /></p>
 <p><a href="http://colab.arc.nasa.gov/virtual">NASA CoLab Island</a> is a dedicated space in the online virtual world of <a href="http://secondlife.com">Second Life</a>. After downloading the Second Life application, you can enter Second Life and visit NASA CoLab Island any time, 24/7.</p>

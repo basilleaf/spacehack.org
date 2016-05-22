@@ -15,7 +15,7 @@ old_site_image: http://spacehack.org/wp-content/uploads/2012/07/odysseus_crop.jp
 status: previous
 ---
 
-<div class = "scrape_from_old_wordpress">
+<div class = "scrape-from-old-wordpress">
 
 <p style="text-align: right;"><img title="" alt="" src="http://spacehack.org/wp-content/uploads/2012/07/odysseus_large.jpg" width="446" height="216" /><br />
 <small><em>NASA (1959)</em></small></p>

@@ -15,7 +15,7 @@ old_site_image: http://spacehack.org/wp-content/uploads/2013/04/robonaut_large.j
 status: previous
 ---
 
-<div class = "scrape_from_old_wordpress">
+<div class = "scrape-from-old-wordpress">
 
 <p style="text-align: right;"><img class="size-full wp-image-2129" alt="" src="http://spacehack.org/wp-content/uploads/2013/04/robonaut_large.jpg" width="446" height="216" srcset="http://spacehack.org/wp-content/uploads/2013/04/robonaut_large-310x150.jpg 310w, http://spacehack.org/wp-content/uploads/2013/04/robonaut_large.jpg 892w" sizes="(max-width: 446px) 100vw, 446px" /><br />
 <small><em>NASA</em></small></p>

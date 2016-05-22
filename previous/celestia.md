@@ -19,7 +19,7 @@ old_site_image: http://spacehack.org/wp-content/uploads/2008/12/celestia.jpg
 status: previous
 ---
 
-<div class = "scrape_from_old_wordpress">
+<div class = "scrape-from-old-wordpress">
 
 <p><img class="alignnone size-medium wp-image-275" alt="" src="http://spacehack.org/wp-content/uploads/2008/12/celestia.jpg" width="310" height="150" /></p>
 <p>An open-source, photo-realistic, real-time, three-dimensional viewing of the solar system, the galaxy and the universe. <a href="http://www.shatters.net/celestia/">Celestia</a> is an easy to use, freely-distributed, multi-platform, open source, software package which has become a valuable tool for astronomy education. Used in homes, schools, museums and planetariums around the world, it also is used as a visualization tool by space mission designers. Versions are available for computers running Windows, Macintosh (Mac OS X) and Linux operating systems.</p>

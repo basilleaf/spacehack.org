@@ -18,7 +18,7 @@ old_site_image:
 status: previous
 ---
 
-<div class = "scrape_from_old_wordpress">
+<div class = "scrape-from-old-wordpress">
 
 <div id="attachment_1007" style="width: 320px" class="wp-caption alignleft"><img class="size-full wp-image-1007 " src="/wp-content/uploads/2010/03/solarstorm.jpg" alt="" width="310" height="150" /><p class="wp-caption-text">Photo by NASA</p></div>
 <p>Learn how to spot solar explosions and track them across space to Earth. Your work could make a new scientific discovery as well as give astronauts an early warning if dangerous radiation is headed their way. You&#8217;ll also find out how to pinpoint comets, particle strikes and optical effects, and how to make detailed storm measurements.</p>

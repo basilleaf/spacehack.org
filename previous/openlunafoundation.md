@@ -17,7 +17,7 @@ old_site_image: http://spacehack.org/wp-content/uploads/2009/01/openluna.jpg
 status: previous
 ---
 
-<div class = "scrape_from_old_wordpress">
+<div class = "scrape-from-old-wordpress">
 
 <p><img class="alignnone size-medium wp-image-361" alt="" src="/wp-content/uploads/2009/01/openluna.jpg" width="446" height="216" /></p>
 <p>A stepped program of robotic missions that seek to return mankind to the lunar surface, and to do it in such a way that it is accessible to everyone. The Open Luna Foundation is open source and invites <a href="http://www.openluna.org/wiki/index.php/People_needed">everyone</a> (hardware providers, writers, wiki-editors, designers, etc.) to contribute and share what you want to do and what science you would like to see done on their wiki. One of their specific aims is to reach out to the community and educational systems to spread interest, enthusiasm, and involvement.</p>

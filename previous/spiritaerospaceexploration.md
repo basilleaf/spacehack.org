@@ -17,7 +17,7 @@ old_site_image: http://spacehack.org/wp-content/uploads/2007/09/conrad_small.jpg
 status: previous
 ---
 
-<div class = "scrape_from_old_wordpress">
+<div class = "scrape-from-old-wordpress">
 
 <p><img class="alignnone size-full wp-image-2183" alt="conrad_large" src="/wp-content/uploads/2007/09/conrad_large.jpg" width="446" height="216" srcset="http://spacehack.org/wp-content/uploads/2007/09/conrad_large-310x150.jpg 310w, http://spacehack.org/wp-content/uploads/2007/09/conrad_large.jpg 892w" sizes="(max-width: 446px) 100vw, 446px" /></p>
 <p>Here s your chance to develop products that can help propel the aerospace industry forward in the exploration and knowledge of space. The Spirit of Innovation Awards: Aerospace Exploration category challenges teams of 2-5 domestic or international high school students to solve real-world problems by creating an innovative product for use in aerospace exploration. The Aerospace Exploration category encompasses any products with reasonable commercial opportunity in the aerospace industry   vehicles, spacesuits, planetary exploration, satellites, space medicine, Earth observation and more. Think biomedical   missions to the moon and Mars   other aerospace innovations. The industry is ripe for new ideas.</p>

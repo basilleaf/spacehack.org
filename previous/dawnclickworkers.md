@@ -18,7 +18,7 @@ old_site_image: http://spacehack.org/wp-content/uploads/2007/11/dawnclickworkers
 status: previous
 ---
 
-<div class = "scrape_from_old_wordpress">
+<div class = "scrape-from-old-wordpress">
 
 <p><img class="alignnone size-full wp-image-1426" title="" src="http://spacehack.org/wp-content/uploads/2007/11/dawnclickworkers_dead.jpg" alt="the deadline for this project has passed" width="446" height="216" srcset="http://spacehack.org/wp-content/uploads/2007/11/dawnclickworkers_dead-310x150.jpg 310w, http://spacehack.org/wp-content/uploads/2007/11/dawnclickworkers_dead.jpg 446w" sizes="(max-width: 446px) 100vw, 446px" /></p>
 <p>Contribute to the scientific understanding of the surfaces of solar system bodies. Surface features help astronomers learn more about solar system bodies. Developing the critical eye needed to identify and measure surface features in images takes a considerable amount of practice. Clickworkers offers you the opporunity to fine-tune your skills. The Clickworkers program presents a series of images from which you can identify and measure the diameter of craters on two solar system bodies (Mars, Eros).</p>

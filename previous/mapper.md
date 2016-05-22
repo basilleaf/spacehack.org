@@ -15,7 +15,7 @@ old_site_image: http://spacehack.org/wp-content/uploads/2012/06/mapper_crop2.jpg
 status: previous
 ---
 
-<div class = "scrape_from_old_wordpress">
+<div class = "scrape-from-old-wordpress">
 
 <p style="text-align: right;"><img title="" src="http://spacehack.org/wp-content/uploads/2012/06/mapper_large.jpg" alt="" width="446" height="216" /><br />
 <small><em>Donnie Reid</em></small></p>

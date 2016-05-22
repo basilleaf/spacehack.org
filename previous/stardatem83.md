@@ -14,7 +14,7 @@ old_site_image: http://spacehack.org/wp-content/uploads/2014/01/star_date_m38_la
 status: previous
 ---
 
-<div class = "scrape_from_old_wordpress">
+<div class = "scrape-from-old-wordpress">
 
 <p><img class="alignnone size-full wp-image-2226" src="/wp-content/uploads/2014/01/star_date_m38_large.jpg" alt="star_date_m38_large" width="446" height="216" srcset="http://spacehack.org/wp-content/uploads/2014/01/star_date_m38_large-310x150.jpg 310w, http://spacehack.org/wp-content/uploads/2014/01/star_date_m38_large.jpg 892w" sizes="(max-width: 446px) 100vw, 446px" /></p>
 <p>Help identify the ages of star clusters in galaxy M83. Researchers using the Hubble Space Telescope need help determining the age and type of star clusters in M83, the Southern Pinwheel Galaxy, one of the closest galaxies to our own.</p>

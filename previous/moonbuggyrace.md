@@ -17,7 +17,7 @@ old_site_image: http://spacehack.org/wp-content/uploads/2008/12/moonbuggy.jpg
 status: previous
 ---
 
-<div class = "scrape_from_old_wordpress">
+<div class = "scrape-from-old-wordpress">
 
 <p><small><em><a href="http://spacehack.org/wp-content/uploads/2007/01/moonbuggy.jpg"><img class="alignnone size-full wp-image-905" src="http://spacehack.org/wp-content/uploads/2007/01/moonbuggy.jpg" alt="moonbuggy" width="310" height="150" /></a><br />
 NASA/MSFC</em></small></p>

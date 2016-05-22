@@ -20,7 +20,7 @@ old_site_image: http://spacehack.org/wp-content/uploads/2008/11/teamfrednet.jpg
 status: previous
 ---
 
-<div class = "scrape_from_old_wordpress">
+<div class = "scrape-from-old-wordpress">
 
 <p><img class="alignnone size-full wp-image-1400" title="" src="/wp-content/uploads/2007/11/teamfrednet_dead.jpg" alt="deadline passed" width="446" height="216" srcset="http://spacehack.org/wp-content/uploads/2007/11/teamfrednet_dead-310x150.jpg 310w, http://spacehack.org/wp-content/uploads/2007/11/teamfrednet_dead.jpg 446w" sizes="(max-width: 446px) 100vw, 446px" /></p>
 <p><a href="http://www.frednet.org/">Team FREDNET</a> is an open source, open participation and officially registered competitor in the <a href="http://www.googlelunarxprize.org/">Google Lunar X PRIZE</a>. Everybody regardless of background and past experience can join the effort and contribute with whatever they can contribute with. There is always room and need for one more.</p>

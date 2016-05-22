@@ -18,7 +18,7 @@ old_site_image: http://spacehack.org/wp-content/uploads/2013/03/nasaexplorationd
 status: previous
 ---
 
-<div class = "scrape_from_old_wordpress">
+<div class = "scrape-from-old-wordpress">
 
 <p style="text-align: right;"><img class="alignnone size-full wp-image-2098" alt="orion spacecraft mockup" src="/wp-content/uploads/2013/03/nasaexplorationdesign_large.jpg" width="446" height="216" srcset="http://spacehack.org/wp-content/uploads/2013/03/nasaexplorationdesign_large-310x150.jpg 310w, http://spacehack.org/wp-content/uploads/2013/03/nasaexplorationdesign_large.jpg 892w" sizes="(max-width: 446px) 100vw, 446px" /><br />
 <small><em>mockup of the Orion spacecraft</em></small></p>

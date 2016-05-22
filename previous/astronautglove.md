@@ -17,7 +17,7 @@ old_site_image: http://spacehack.org/wp-content/uploads/2008/11/astronautglove.j
 status: previous
 ---
 
-<div class = "scrape_from_old_wordpress">
+<div class = "scrape-from-old-wordpress">
 
 <p><img class="alignnone size-full wp-image-1392" title="" src="http://spacehack.org/wp-content/uploads/2007/11/astronautglove_dead.jpg" alt="deadline passed" width="446" height="216" srcset="http://spacehack.org/wp-content/uploads/2007/11/astronautglove_dead-310x150.jpg 310w, http://spacehack.org/wp-content/uploads/2007/11/astronautglove_dead.jpg 446w" sizes="(max-width: 446px) 100vw, 446px" /></p>
 <p>The <a href="http://astronaut-glove.us">2009 Astronaut Glove Challenge</a> is designed to promote the development of glove joint technology, resulting in a highly dexterous and flexible glove that can be used by astronauts over long periods of time for space or planetary surface excursions.</p>

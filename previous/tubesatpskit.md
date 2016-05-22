@@ -19,7 +19,7 @@ old_site_image:
 status: previous
 ---
 
-<div class = "scrape_from_old_wordpress">
+<div class = "scrape-from-old-wordpress">
 
 <p><img class="alignnone size-full wp-image-785" src="/wp-content/uploads/2009/09/tubesat.jpg" alt="" width="310" height="150" /></p>
 <p>Build and launch your own satellite into space! One of the primary missions at <a href="http://interorbital.com/">Interorbital</a> is to provide satellite hardware and launch support for the experimental and commercial satellite community. Planet Earth has entered the age of the Personal Satellite with the introduction of Interorbital&#8217;s TubeSat Personal Satellite (PS) Kit. The new IOS TubeSat PS Kit is the low-cost alternative to the CubeSat. And, best of all, the price of the TubeSat kit actually includes the price of a launch into Low-Earth-Orbit on an IOS NEPTUNE 7 launch vehicle. Since the TubeSats are placed into self-decaying orbits 310 kilometers (192 miles) above the Earth&#8217;s surface, they do not contribute to the long-term build-up of orbital debris. After operating for a few months (the exact length of time on orbit is dependent on solar activity), they will safely re-enter the atmosphere and burn-up. TubeSats are designed to be orbit-friendly. Launches are expected to begin in the fourth quarter of 2013 or the first quarter of 2014.</p>

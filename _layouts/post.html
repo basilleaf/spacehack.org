@@ -4,7 +4,7 @@ layout: default
 {% include header.html %}
 
 {% if page.banner %}
-<div class="project_banner">
+<div class="project-banner">
 
   <img width = "100%" src="/assets/img/{{ page.banner }}" alt="">
 
@@ -20,9 +20,9 @@ layout: default
       
     <h1>{{ page.title }}</h1>
 
-    <div class = "small_underline"></div>
+    <div class = "small-underline"></div>
       
-    <ul class = "project_links">
+    <ul class = "project-links">
 
       {% if page.website %}
         {% assign web_label = page.website | split:'://' | last %}
@@ -63,7 +63,7 @@ layout: default
   <div class="content post-content col-sm-8">
     {{ page.content }}
 
-    <div class = "image_credit">{{ page.caption }}</div>
+    <div class = "image-credit">{{ page.caption }}</div>
   </div><!-- post-content -->
 
 

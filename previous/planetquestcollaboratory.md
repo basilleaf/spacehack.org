@@ -19,7 +19,7 @@ old_site_image: http://spacehack.org/wp-content/uploads/2008/11/planetquest.jpg
 status: previous
 ---
 
-<div class = "scrape_from_old_wordpress">
+<div class = "scrape-from-old-wordpress">
 
 <p><img class="alignnone size-medium wp-image-138" src="http://spacehack.org/wp-content/uploads/2008/11/planetquest.jpg" alt="" width="446" height="216" /></p>
 <p>The <a href="http://www.planetquest.org/download/">PlanetQuest Collaboratory</a> will turn your computer (Mac, PC, Linux, and others) into a virtual astronomical observatory that you can use to make and share real scientific discoveries. Our telescopes are focused on extremely dense star regions, such as the center of the galaxy in Sagittarius, and when an observing run ends and thousands of images have been collected, data will be downloaded to your computer and your Collaboratory software will begin analyzing it. You can classify stars no one has cataloged before, use the Collaboratory to do your own research, and maybe even find a new planet! The project is currently in development and alpha testing.</p>

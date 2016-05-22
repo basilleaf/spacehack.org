@@ -17,7 +17,7 @@ old_site_image: http://spacehack.org/wp-content/uploads/2007/06/yurisnight.jpg
 status: previous
 ---
 
-<div class = "scrape_from_old_wordpress">
+<div class = "scrape-from-old-wordpress">
 
 <p><img class="alignnone size-full wp-image-1116" src="/wp-content/uploads/2007/06/yurisnight.jpg" alt="" width="446" height="216" srcset="http://spacehack.org/wp-content/uploads/2007/06/yurisnight-309x150.jpg 309w, http://spacehack.org/wp-content/uploads/2007/06/yurisnight-310x150.jpg 310w, http://spacehack.org/wp-content/uploads/2007/06/yurisnight.jpg 446w" sizes="(max-width: 446px) 100vw, 446px" /></p>
 <p>Whether in someone&#8217;s living room, a nightclub or a world-class science museum, all <a href="http://yurisnight.net/">Yuri&#8217;s Night</a> events have one thing in common &#8211; people who are excited about space exploration and who want to join together to celebrate it. Everyone around the world is encouraged to create their own Yuri&#8217;s Night event!</p>
