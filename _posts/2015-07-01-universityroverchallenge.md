@@ -9,7 +9,7 @@ tw_image: universityrover_tw.jpg
 website: http://urc.marssociety.org
 twitter: https://twitter.com/URConMars
 facebook: https://www.facebook.com/universityroverchallenge
-tags: 
+tags:
     - challenge
     - international
     - mars
@@ -18,5 +18,9 @@ tags:
 
 caption: >
     (image by NASA/JPL-Caltech/MSSS)
+
+redirect_from:
+  - /project/university-rover-challenge/    
+
 ---
 Design and build the next generation of Mars rovers that could one day work alongside astronauts. There is more than one way for a rover to traverse the Martian surface and perform a variety of tasks. For example, people have prototyped rovers that are more akin to tumbleweeds than automobiles. The University Rover Challenge is open to university-level students worldwide and is typically held in May or June each year in Utah. High school students can be included in a university team. The deadline for team registration is usually in December or January each year.

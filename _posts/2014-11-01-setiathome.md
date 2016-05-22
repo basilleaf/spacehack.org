@@ -8,8 +8,8 @@ fb_image: seti_fb.jpg
 tw_image: seti_tw.jpg
 website: http://setiathome.berkeley.edu
 twitter: https://twitter.com/setiathome
-facebook: 
-tags: 
+facebook:
+tags:
     - aliens
     - extraterrestrial life
     - ground telescopes
