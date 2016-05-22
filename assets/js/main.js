@@ -4,8 +4,13 @@ $(function() {
   sh.adjustGridfonts();
 
   // makes entire grid box clickable (sans js only circle is clickable)
-  $('.project-grid').on("click", '.box-content', function() {
-    window.location.href = $(this).find('a').attr('href');
+  $('.project-grid').on("click", '.box-content', function(e) {
+    var url = $(this).find('a').attr('href');
+    if (!e.metaKey) {
+      window.location.href = url;
+    } else {
+      window.open(url);  // user is command clicking, open in new tab/window
+    }
   });
 
   // infinite scroll lazy loading on homepage
