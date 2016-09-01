@@ -16,11 +16,10 @@ all_sizes = {
     'xsmall': (450, 450),
     'small': (830, 830),
     'med': (950, 950),
-    'large': (1200, 1200)
+    'large': (1200, 1200),
+    # 'social': (885, 464)
 }
 
-facebook = (885, 464)
-twitter = (885, 474)
 
 try:
     keyword = sys.argv[1]
@@ -39,9 +38,11 @@ for file in files:
             found_square = True
             for path, size in all_sizes.items():
                 filename = f.split('/')[-1]
+                if path == 'social':
+                    filename = filename.replace('_square','_social')
                 img = PIL.open(f)
                 img.thumbnail(size, PIL.ANTIALIAS)
-                print("created: assets/img/%s/%s" % (path, filename))
+                print("created: assets/img/%s/%s at %s" % (path, filename, str(size)))
                 img.save("assets/img/%s/%s" % (path, filename))
 
 if not found_square:
