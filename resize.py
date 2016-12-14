@@ -3,11 +3,23 @@ import PIL.Image as PIL
 import re, os, sys, urlparse
 """
 
+  This is the image pipeline for creating responsive image sizes.
+  To add images to the sight, create the square and rectangle images and put them in new_images/
+  then run this script with the project slug as the first argument.
+  For exmaple for spacehack.org/seti do this:
+
+    python resize.py seti
+
+  # todo
+  • we are now using same file for social sharing, so reorganize that dir struct
+    and edit any pointers to them (min square should be 1200 x 1200)
+  • make this script also resize (if needed) and copy into right place the rectangle image
+    (large rectangle is 994 x 298)
+
 """
 
 basedir = 'new_images/'
 image_dir = 'assets/img/'
-keyword = 'seti'
 
 all_square_sizes = {
     'xsmall': (450, 450),
@@ -16,7 +28,7 @@ all_square_sizes = {
     'large': (1200, 1200),
 }
 
-social_size = (885, 464)
+social_size = (1200, 600)
 
 try:
     keyword = sys.argv[1]
@@ -32,9 +44,9 @@ for file in files:
     if JPG.match(file):  # is this a jpeg
         f = image_dir.rstrip("/") + "/" + file
 
-        if keyword in f:  # is this the square version
+        if keyword in f:  # is our keyword in the filename
 
-            # make the square images
+            # make the square images for the homepage
             for path, size in all_square_sizes.items():
 
                 if 'square' in f:
@@ -45,8 +57,8 @@ for file in files:
                     img.save("assets/img/%s/%s" % (path, filename))
                     print("created: assets/img/%s/%s at size %s" % (path, filename, str(size)))
 
-            # make the social iages
-            if 'rectangle' in f:  # is this the square version
+            # make the social images for twitter/facebook sharing
+            if 'rectangle' in f:  # is this the rectangle version
                 filename = f.split('/')[-1].replace('_rectangle','')
                 img = PIL.open(f)
                 orig_width = img.size[0]
