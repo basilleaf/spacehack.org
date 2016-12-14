@@ -4,8 +4,7 @@ title:  Sungrazer
 category: Comets
 thumbnail: sungrazer_square.jpg
 banner: sungrazer_rectangle.jpg
-fb_image: sungrazer_fb.jpg
-tw_image: sungrazer_tw.jpg
+social_image: sungrazer.jpg
 website: http://sungrazer.nrl.navy.mil
 twitter: https://twitter.com/SungrazerComets
 facebook:

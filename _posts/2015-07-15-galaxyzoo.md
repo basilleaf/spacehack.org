@@ -4,8 +4,7 @@ title:  Galaxy Zoo
 category: Galaxies
 thumbnail: galaxyzoo_square.jpg
 banner: galaxyzoo_rectangle.jpg
-fb_image: galaxyzoo_fb.jpg
-tw_image: galaxyzoo_tw.jpg
+social_image: galaxyzoo.jpg
 website: https://galaxyzoo.org
 twitter: https://twitter.com/galaxyzoo
 facebook: https://www.facebook.com/thegalaxyzoo

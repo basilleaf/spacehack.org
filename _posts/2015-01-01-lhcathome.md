@@ -4,8 +4,7 @@ title:  LHC@home
 category: Universe
 thumbnail: lhcathome_square.jpg
 banner: lhcathome_rectangle.jpg
-fb_image: lhcathome_fb.jpg
-tw_image: lhcathome_tw.jpg
+social_image: lhcathome.jpg
 website: http://lhcathome.web.cern.ch
 twitter:
 facebook:

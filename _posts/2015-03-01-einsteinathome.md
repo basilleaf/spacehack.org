@@ -4,8 +4,7 @@ title:  Einstein @Home
 category: Spacetime
 thumbnail: einstein_square.jpg
 banner: einstein_rectangle.jpg
-fb_image: einstein_fb.jpg
-tw_image: einstein_tw.jpg
+social_image: einstein.jpg
 website: http://einstein.phys.uwm.edu
 twitter: http://twitter.com/einsteinathome
 facebook:

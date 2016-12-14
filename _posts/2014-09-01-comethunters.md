@@ -4,8 +4,7 @@ title:  Comet Hunters
 category: Comets
 thumbnail: comethunters_square.jpg
 banner: comethunters_rectangle.jpg
-fb_image: comethunters_fb.jpg
-tw_image: comethunters_tw.jpg
+social_image: comethunters.jpg
 website: http://comethunters.org
 twitter: https://twitter.com/comethunters
 facebook: https://www.facebook.com/comethunters

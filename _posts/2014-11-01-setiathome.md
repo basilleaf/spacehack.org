@@ -4,8 +4,7 @@ title:  SETI@home
 category: Aliens
 thumbnail: seti_square.jpg
 banner: seti_rectangle.jpg
-fb_image: seti_fb.jpg
-tw_image: seti_tw.jpg
+social_image: seti.jpg
 website: http://setiathome.berkeley.edu
 twitter: https://twitter.com/setiathome
 facebook:

@@ -4,8 +4,7 @@ title:  Cities at Night
 category: Earth
 thumbnail: citiesatnight_square.jpg
 banner: citiesatnight_rectangle.jpg
-fb_image: citiesatnight_fb.jpg
-tw_image: citiesatnight_tw.jpg
+social_image: citiesatnight.jpg
 website: http://citiesatnight.org
 twitter: http://twitter.com/cities4tnight
 facebook:

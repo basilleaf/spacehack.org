@@ -4,8 +4,7 @@ title:  Stardust @home
 category: Stars
 thumbnail: stardust_square.jpg
 banner: stardust_rectangle.jpg
-fb_image: stardust_fb.jpg
-tw_image: stardust_tw.jpg
+social_image: stardust.jpg
 website: http://stardustathome.ssl.berkeley.edu
 twitter:
 facebook:

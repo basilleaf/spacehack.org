@@ -5,8 +5,7 @@ category: Spacecraft
 deadline: 2017-02-03
 thumbnail: cubequest_square.jpg
 banner: cubequest_rectangle.jpg
-fb_image: cubequest_fb.jpg
-tw_image: cubequest_tw.jpg
+social_image: cubequest.jpg
 website: http://nasa.gov/cubequest
 twitter: https://twitter.com/NASAPrize
 facebook: https://www.facebook.com/nasacc
