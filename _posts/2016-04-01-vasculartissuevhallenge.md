@@ -9,8 +9,8 @@ website: https://neworgan.org/vtc-prize.php
 twitter: https://twitter.com/neworgan
 facebook: https://www.facebook.com/neworganprize/
 tags:
+    - astronauts
     - biology
-    - humans
     - medical
 
 caption: >
