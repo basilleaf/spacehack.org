@@ -7,7 +7,7 @@ banner: vascular_rectangle.jpg
 social_image: vascular.jpg
 website: https://neworgan.org/vtc-prize.php
 twitter: https://twitter.com/neworgan
-facebook: https://www.facebook.com/neworganprize/
+facebook: https://www.facebook.com/neworganprize
 tags:
     - astronauts
     - biology
