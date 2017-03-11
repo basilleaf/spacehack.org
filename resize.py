@@ -2,6 +2,8 @@
 from shutil import copyfile
 import PIL.Image as PIL
 import re, os, sys, urlparse
+import os
+
 """
 
   This is the an image pipeline for creating responsive image sizes.
@@ -17,9 +19,9 @@ import re, os, sys, urlparse
     python resize.py seti
 
 """
-
-basedir = 'raw_images/'
-image_dir = 'assets/img/'
+cwd = os.getcwd()
+raw_dir = cwd + '/raw_images/'
+image_dir = cwd + '/assets/img/'
 
 all_square_sizes = {
     'xsmall': (450, 450),
@@ -38,36 +40,33 @@ except:
 
 JPG = re.compile(".*\.(jpg|jpeg)", re.IGNORECASE)
 
-files = os.listdir(basedir)
+files = os.listdir(raw_dir)
 found_square = False
-for file in files:
-    if JPG.match(file):  # is this a jpeg
-        f = image_dir.rstrip("/") + "/" + file
-
-        if keyword in f:  # is our keyword in the filename
-
+for raw_file in files:
+    if JPG.match(raw_file):  # is this a jpeg
+        if keyword in raw_file:  # is our keyword in the filename
             # make the square images for the homepage
             for path, size in all_square_sizes.items():
 
-                if 'square' in f:
-                    filename = f.split('/')[-1]
+                if 'square' in raw_file:
+                    filename = "%s%s/%s" % (image_dir, path, raw_file)
                     found_square = True
-                    img = PIL.open(f)
-                    img.thumbnail(size, PIL.ANTIALIAS)
-                    img.save("assets/img/%s/%s" % (path, filename))
-                    print("created: assets/img/%s/%s at size %s" % (path, filename, str(size)))
+                    img = PIL.open("%s/%s" % (raw_dir, raw_file))
+                    img.thumbnail(path, PIL.ANTIALIAS)
+                    img.save(filename)
+                    print("created: %s" % filename)
 
             # deal with the project pages
-            if 'rectangle' in f:  # is this the rectangle version
+            if 'rectangle' in raw_file:  # is this the rectangle version
 
                 # move rectangle banner image into correct file location:
-                base_file = f.split('/')[-1]
-                copyfile("%s/%s" % (basedir, base_file), "assets/img/%s" % (base_file))
-                print("created: assets/img/%s" % f.split('/')[-1])
+                filename = "%s%s/%s" % (image_dir, "project_banners", raw_file)
+                copyfile("%s/%s" % (raw_dir, raw_file), filename)
+                print("created: %s" % filename)
 
                 # make the social images for twitter/facebook sharing
-                filename = f.split('/')[-1].replace('_rectangle','')
-                img = PIL.open(f)
+                filename = raw_file.replace('_rectangle','')
+                img = PIL.open("%s/%s" % (raw_dir, raw_file))
                 orig_width = img.size[0]
                 orig_height = img.size[1]
                 desired_width = social_size[0]
