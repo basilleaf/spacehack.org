@@ -62,9 +62,15 @@ var sh = {
         }
     } else  {
       // scroll is less than 30, header is released
+
         if (sh.header_is_fixed) {
           sh.header_is_fixed = false;
           $('header').removeClass('black');
+
+          if (!$('.mobile-indicator').is(':visible')) {
+            $('.about').css('top','15px');
+          }
+          
         }
       }
   },
