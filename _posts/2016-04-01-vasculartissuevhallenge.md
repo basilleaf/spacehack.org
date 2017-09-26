@@ -11,6 +11,7 @@ facebook: https://www.facebook.com/neworganprize
 tags:
     - astronauts
     - biology
+    - challenge
     - medical
 
 caption: >
