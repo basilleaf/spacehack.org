@@ -5,7 +5,7 @@ category: Life Support
 thumbnail: nasaairprize_square.jpg
 banner: nasaairprize_rectangle.jpg
 social_image: nasaairprize.jpg
-website: https://www.earthspaceairprize.org
+website: https://earthspaceairprize.org
 tags:
     - astronauts
     - challenge
