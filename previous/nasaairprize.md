@@ -1,11 +1,13 @@
 ---
 layout: post
 title:  NASA Air Prize
+permalink: /nasaairprize/
 category: Life Support
 thumbnail: nasaairprize_square.jpg
 banner: nasaairprize_rectangle.jpg
 social_image: nasaairprize.jpg
 website: https://earthspaceairprize.org
+status: previous
 tags:
     - astronauts
     - challenge
